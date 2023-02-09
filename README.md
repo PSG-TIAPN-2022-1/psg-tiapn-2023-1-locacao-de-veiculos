@@ -6,7 +6,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * Rafael Ricardo de Oliveira Goulart
 * Lucas Laboissiere Ferreira
 * Vitor Carvalho Soares de Paula
-* Marcos Rocha Simões Araujo
+* Marcos Rocha Simões Araújo
 
 ## Professores responsáveis
 
