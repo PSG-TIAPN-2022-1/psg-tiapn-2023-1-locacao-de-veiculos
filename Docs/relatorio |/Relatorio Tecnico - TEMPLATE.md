@@ -58,7 +58,7 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+o problema central que essa aplicação busca resolver é a simplificação do processo de aluguel. Com a aplicação, os usuários podem buscar, reservar e alugar veículos de forma rápida e prática, o que torna o processo de locação de carros mais fácil, acessível e seguro.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -78,7 +78,13 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  O objetivo geral do trabalho é desenvolver um software para solucionar o problema de gerenciamento de locação de carros. O software permitirá que os usuários aluguem carros por um determinado período de tempo, enquanto a empresa de locação de carros gerencia seus veículos e clientes de forma eficiente.
+
+Para alcançar esse objetivo geral, é possível estabelecer os seguintes objetivos específicos:
+
+1 - Desenvolver um sistema de gerenciamento de estoque: O software deve permitir que a empresa de locação de carros gerencie seu estoque de veículos de forma eficiente, monitorando o status de cada carro, disponibilidade, manutenção e histórico de locações anteriores. Isso permitirá que a empresa tome decisões informadas sobre quando adquirir novos veículos, quando retirar veículos antigos e quando programar a manutenção preventiva.
+
+2 - Criar um sistema de reservas online: O software deve permitir que os usuários reservem carros online, escolhendo o modelo e a data de início e término da locação. O sistema deve calcular automaticamente o valor da locação com base no modelo do carro escolhido, duração da locação e outras taxas aplicáveis. Isso simplificará o processo de reserva para o usuário e permitirá que a empresa gerencie melhor suas reservas, reduzindo o risco de reservas duplicadas ou conflitantes. ......
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -91,7 +97,13 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  A aplicação de locação de carros é importante porque oferece aos clientes uma alternativa de transporte flexível e acessível, sem a necessidade de possuir um veículo próprio. Além disso, é um serviço muito utilizado por viajantes e turistas, o que torna a aplicação uma opção interessante para o setor de turismo e mobilidade urbana.
+
+No que diz respeito aos objetivos específicos, o sistema de gerenciamento de estoque é importante porque permite que a empresa de locação de carros gerencie seus veículos de forma eficiente, garantindo que seus veículos estejam sempre em boas condições de funcionamento e prontos para serem alugados. Além disso, o monitoramento do histórico de locações anteriores permite que a empresa identifique quais veículos são mais populares e possam ser adquiridos em maior quantidade.
+
+Já o sistema de reservas online é importante porque permite que os clientes reservem carros com antecedência e facilidade, o que aumenta a eficiência do processo de locação e reduz o risco de erros ou conflitos nas reservas. Além disso, com o sistema de reservas online, a empresa pode gerenciar melhor sua capacidade de oferta e demanda, e planejar seus estoques de veículos de acordo com a procura.
+
+Em geral, a motivação para trabalhar nesta aplicação vem da necessidade de fornecer um serviço mais eficiente, conveniente e acessível para os clientes que precisam de um meio de transporte temporário. Além disso, o gerenciamento eficiente dos veículos e das reservas pode ajudar a empresa a melhorar seus lucros e expandir seu negócio. ......
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -107,7 +119,13 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  A aplicação de locação de carros terá diferentes perfis de usuários, cada um com suas próprias necessidades e características. Aqui estão alguns exemplos:
+
+Clientes: Esses são os usuários finais da aplicação, aqueles que reservam e alugam os carros. Eles podem ter diferentes níveis de conhecimento prévio sobre a tecnologia, variando de usuários experientes a pessoas que têm menos experiência com dispositivos eletrônicos. Eles provavelmente estarão procurando uma experiência de reserva fácil e rápida, e uma aplicação intuitiva que facilite o processo de aluguel de carros.
+
+Funcionários da empresa de locação de carros: Esses usuários podem incluir gerentes de frota, atendentes de balcão e funcionários de manutenção. Eles precisam de uma interface de gerenciamento de estoque clara e fácil de usar, que permita que eles monitorem a disponibilidade dos veículos, programem a manutenção preventiva e gerenciem o processo de locação. Eles podem ter conhecimentos técnicos mais avançados sobre a tecnologia e podem precisar de treinamento específico para utilizar a aplicação.
+
+Administradores do sistema: Esses usuários são responsáveis por manter e atualizar a aplicação. Eles podem ter conhecimentos técnicos avançados e precisam ser capazes de resolver problemas técnicos, realizar atualizações de segurança e manter o sistema funcionando de forma eficiente. Eles também podem precisar gerenciar o acesso à aplicação para diferentes usuários, garantindo que cada usuário tenha as permissões corretas. ......
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -126,7 +144,7 @@
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Para o projeto de desenvolvimento da aplicação de locação de carros, será utilizada uma abordagem simples, com foco na especificação de requisitos e na definição da arquitetura do software. Para isso, serão utilizadas técnicas e ferramentas comuns em projetos de desenvolvimento de software, como análise de requisitos, especificação de casos de uso, modelagem de dados, prototipagem, diagramas de arquitetura e uma metodologia ágil de desenvolvimento. O objetivo é garantir que a solução atenda às necessidades dos usuários e seja desenvolvida de forma eficiente e eficaz. ......
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -134,7 +152,73 @@
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  
+Persona 1 - Cliente Pessoa Física:
+Nome: Ana
+Descrição: Ana é uma mulher de 30 anos que mora na cidade e precisa de um carro para se locomover com frequência. Ela prefere carros compactos e econômicos e não quer gastar muito dinheiro com combustível. Ana não tem conhecimentos avançados em tecnologia, mas usa smartphones e aplicativos com frequência.
+Mapa de Empatia da Persona 1 - Cliente Pessoa Física:
+
+|O que a persona vê?      |	       O que a persona ouve?      |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
+|-------------------------|-----------------------------------|--------------------------------------|--------------------------------------------| 
+|Dificuldades de locomoção|	Comentários de amigos e familiares|	Quer economizar e gastar pouco com   |Pesquisa carros compactos e econômicos.     |
+|                         |                                   | combustível	                         |                                            |
+|                         |                                   |                                      |                                            |
+|----------------------------------------------------------------------------------------------------|--------------------------------------------|
+|Anúncios em aplicativos e| Sugestões de amigos               | Precisa de um carro para se locomover|   Usa aplicativos para comparar preços     |
+|redes sociais	          |                                   |                                      |                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|Opções variadas de       |  Propagandas em meios de          |   Tem medo de ser enganada ou ter    |    Verifica as avaliações das locadoras    |
+|locadoras                |  comunicação                      |  problemas                           |                                            |
+--------------------------------------------------------------------------------------------------------------------------------------------------|                    |Opiniões de outros       | Comentários sobre o mercado de    |  Deseja praticidade e agilidade      |    Realiza a reserva pelo aplicativo       |
+|  usuários               | locação de carros                 |                                      |                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|                 
+
+
+Persona 2 - Cliente Pessoa Jurídica:
+Nome: João
+Descrição: João é um empresário de 45 anos que administra uma pequena empresa de entregas na cidade. Ele precisa alugar carros para a sua equipe realizar as entregas, e prefere carros mais espaçosos e robustos. João tem conhecimentos básicos em tecnologia e costuma usar aplicativos de gestão empresarial em seu trabalho.
+
+Mapa de Empatia da Persona 2 - Cliente Pessoa Jurídica:
+
+|O que a persona vê?      |	       O que a persona ouve?      |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
+|-------------------------|-----------------------------------|--------------------------------------|--------------------------------------------| 
+|Dificuldades de transpor-|	Comentários de colegas empresários|	Necessidade de alugar carros regular-|Verifica preços e promoções das locadoras   |
+|te para a equipe         |                                   | mente     	                         |                                            |
+|                         |                                   |                                      |                                            |
+|----------------------------------------------------------------------------------------------------|--------------------------------------------|
+|Propagandas em meios de  | Sugestões de amigos               | Deseja carros espaçosos e robustos   |   Faz a reserva pelo aplicativo            |
+|comunicação   	          |                                   |                                      |                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|Opções variadas de       |  Comentários sobre o mercado de   |Precisa de nota fiscal para reembolso |    Verifica a possibilidade de faturamento |
+|locadoras                |  locação de carros                |                                      |    em nome da empresa                      |
+--------------------------------------------------------------------------------------------------------------------------------------------------|                    |Condições de pagamento   | Comentários de outros usuários    |  Deseja agilidade no processo de     |    Realiza a reserva com antecedência      |
+|                         |                                   |  reserva                             |                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+Persona 3 - Motorista de aplicativos:
+Nome: Felipe
+Descrição: Felipe é um jovem de 25 anos que trabalha como motorista de aplicativos em tempo integral. Ele não tem carro próprio e precisa alugar um veículo para trabalhar. Felipe busca um carro econômico e confortável para dirigir por longas horas, além de um preço acessível para poder ter uma renda satisfatória. Ele tem conhecimentos avançados em tecnologia e está sempre buscando ferramentas e aplicativos para otimizar o seu trabalho.
+
+Mapa de Empatia da Persona 3 - Motorista de aplicativos:
+
+|O que a persona vê?      |	       O que a persona ouve?      |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
+|-------------------------|-----------------------------------|--------------------------------------|--------------------------------------------|                      |Necessidade de alugar um |Sujestões de outros motoristas     |Quer um carro econômico e confortável |Procura por aplicativos e locadoras         |
+|carro                    |                                   |           	                         | com melhores preços                        |
+|                         |                                   |                                      |                                            |
+|----------------------------------------------------------------------------------------------------|--------------------------------------------|
+|Anúncios em aplicativos  | Comentários sobre o mercado de    |Precisa de um preço acessível para    |  Verifica as condições de pagamento        |
+|e redes sociais   	      |  locação de carros                | ter uma renda satisfatória           |                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|Variedade de opções de   |  Dificuldade em encontrar um      |Deseja ter um carro disponível        | Reserva um carro com antecedência para     |
+|locadoras                |  bom negócio                      |a qualquer hora                       | garantir a disponibilidade                 |
+--------------------------------------------------------------------------------------------------------------------------------------------------|                    |Opiniões de outros       | Comentários sobre a qualidade dos |Deseja ter um bom suporte em caso     |Verifica os canais de atendimento           |
+| motoristas              | carros                            |de problemas                          |das locadoras                               |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+
+			 ......
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
