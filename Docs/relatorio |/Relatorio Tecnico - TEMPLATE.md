@@ -159,7 +159,7 @@ Descrição: Ana é uma mulher de 30 anos que mora na cidade e precisa de um car
 Mapa de Empatia da Persona 1 - Cliente Pessoa Física:
 
 |O que a persona vê?      |	       O que a persona ouve?  |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
-|                         |				      |					     |                                            |
+|-------------------------|-----------------------------------|--------------------------------------|--------------------------------------------|
 |Dificuldades de locomoção|Comentários de amigos e familiares |	Quer economizar e gastar pouco com   |Pesquisa carros compactos e econômicos.     |
 |                         |                                   | combustível	                     |                                            |
 |                         |                                   |                                      |                                            |
