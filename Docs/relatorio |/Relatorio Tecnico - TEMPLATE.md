@@ -158,20 +158,21 @@ Nome: Ana
 Descrição: Ana é uma mulher de 30 anos que mora na cidade e precisa de um carro para se locomover com frequência. Ela prefere carros compactos e econômicos e não quer gastar muito dinheiro com combustível. Ana não tem conhecimentos avançados em tecnologia, mas usa smartphones e aplicativos com frequência.
 Mapa de Empatia da Persona 1 - Cliente Pessoa Física:
 
-|O que a persona vê?      |	       O que a persona ouve?      |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
-|-------------------------|-----------------------------------|--------------------------------------|--------------------------------------------| 
-|Dificuldades de locomoção|	Comentários de amigos e familiares|	Quer economizar e gastar pouco com   |Pesquisa carros compactos e econômicos.     |
-|                         |                                   | combustível	                         |                                            |
+|O que a persona vê?      |	       O que a persona ouve?  |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
+|                         |				      |					     |                                            |
+|Dificuldades de locomoção|Comentários de amigos e familiares |	Quer economizar e gastar pouco com   |Pesquisa carros compactos e econômicos.     |
+|                         |                                   | combustível	                     |                                            |
 |                         |                                   |                                      |                                            |
-|----------------------------------------------------------------------------------------------------|--------------------------------------------|
+|                         |				      |					     |						  |
 |Anúncios em aplicativos e| Sugestões de amigos               | Precisa de um carro para se locomover|   Usa aplicativos para comparar preços     |
 |redes sociais	          |                                   |                                      |                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|			  |				      |					     |						  |
 |Opções variadas de       |  Propagandas em meios de          |   Tem medo de ser enganada ou ter    |    Verifica as avaliações das locadoras    |
 |locadoras                |  comunicação                      |  problemas                           |                                            |
---------------------------------------------------------------------------------------------------------------------------------------------------|                    |Opiniões de outros       | Comentários sobre o mercado de    |  Deseja praticidade e agilidade      |    Realiza a reserva pelo aplicativo       |
+|			  |				      |					     |						  |
+|Opiniões de outros       | Comentários sobre o mercado de    |  Deseja praticidade e agilidade      |    Realiza a reserva pelo aplicativo       |
 |  usuários               | locação de carros                 |                                      |                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|                 
+                
 
 
 Persona 2 - Cliente Pessoa Jurídica:
