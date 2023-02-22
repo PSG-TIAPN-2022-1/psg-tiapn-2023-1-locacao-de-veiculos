@@ -176,18 +176,11 @@ Mapa de Empatia da Persona 2 - Cliente Pessoa Jurídica:
 
 |O que a persona vê?      |	       O que a persona ouve?      |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
 |-------------------------|-----------------------------------|--------------------------------------|--------------------------------------------| 
-|Dificuldades de transpor-|	Comentários de colegas empresários|	Necessidade de alugar carros regular-|Verifica preços e promoções das locadoras   |
-|te para a equipe         |                                   | mente     	                         |                                            |
-|                         |                                   |                                      |                                            |
-|----------------------------------------------------------------------------------------------------|--------------------------------------------|
-|Propagandas em meios de  | Sugestões de amigos               | Deseja carros espaçosos e robustos   |   Faz a reserva pelo aplicativo            |
-|comunicação   	          |                                   |                                      |                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|
-|Opções variadas de       |  Comentários sobre o mercado de   |Precisa de nota fiscal para reembolso |    Verifica a possibilidade de faturamento |
-|locadoras                |  locação de carros                |                                      |    em nome da empresa                      |
---------------------------------------------------------------------------------------------------------------------------------------------------|                    |Condições de pagamento   | Comentários de outros usuários    |  Deseja agilidade no processo de     |    Realiza a reserva com antecedência      |
-|                         |                                   |  reserva                             |                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|Dificuldades de transporte para a equipe|	Comentários de colegas empresários|	Necessidade de alugar carros regularmente|Verifica preços e promoções das locadoras   |
+|Propagandas em meios de comunicação  | Sugestões de amigos            | Deseja carros espaçosos e robustos   |   Faz a reserva pelo aplicativo    |
+|Opções variadas de locadoras |  Comentários sobre o mercado de locação de carros |Precisa de nota fiscal para reembolso |   Verifica a possibilidade de faturamento em nome da empresa |
+|Condições de pagamento   | Comentários de outros usuários    |  Deseja agilidade no processo de reserva |    Realiza a reserva com antecedência  |
+
 
 
 Persona 3 - Motorista de aplicativos:
