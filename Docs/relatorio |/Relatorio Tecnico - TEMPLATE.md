@@ -160,11 +160,12 @@ Mapa de Empatia da Persona 1 - Cliente Pessoa Física:
 
 |O que a persona vê?      |	       O que a persona ouve?  |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
 |-------------------------|-----------------------------------|--------------------------------------|--------------------------------------------|
-|Dificuldades de locomoção|Comentários de amigos e familiares |	Quer economizar e gastar pouco com   |Pesquisa carros compactos e econômicos.     |
+|Dificuldades de locomoção|Comentários de amigos e familiares |	Quer economizar e gastar pouco com  combustiveis |Pesquisa carros compactos e econômicos.     |
 |                         |                                   | combustível	                     |                                            |
 |                         |                                   |                                      |                                            |
 |                         |				      |					     |						  |
 |Anúncios em aplicativos e
+ redes socias
 redes socias              | Sugestões de amigos               | Precisa de um carro para se locomover|   Usa aplicativos para comparar preços     |
 |		          |                                   |                                      |                                            |
 |			  |				      |					     |						  |
