@@ -190,6 +190,7 @@ Descrição: Felipe é um jovem de 25 anos que trabalha como motorista de aplica
 Mapa de Empatia da Persona 3 - Motorista de aplicativos:
 
 |O que a persona vê?      |	       O que a persona ouve?      |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
+|----------------------------|--------------------------------------|--------------------------------------|--------------------------------------------|
 |Necessidade de alugar um carro |Sujestões de outros motoristas|Quer um carro econômico e confortável|Procura por aplicativos e locadoras com melhores preços|
 |Anúncios em aplicativos e redes sociais | Comentários sobre o mercado de locação de carros |Precisa de um preço acessível para ter uma renda satisfatória|  Verifica as condições de pagamento|
 |Variedade de opções de locadoras|  Dificuldade em encontrar um bom negócio|Deseja ter um carro disponível a qualquer hora| Reserva um carro com antecedência para garantir a disponibilidade|
