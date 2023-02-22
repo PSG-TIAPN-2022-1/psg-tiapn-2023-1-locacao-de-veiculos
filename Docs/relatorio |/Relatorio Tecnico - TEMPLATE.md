@@ -172,8 +172,11 @@ Mapa de Empatia da Persona 1 - Cliente Pessoa Física:
 
 
 Persona 2 - Cliente Pessoa Jurídica:
+
 Nome: João
+
 Descrição: João é um empresário de 45 anos que administra uma pequena empresa de entregas na cidade. Ele precisa alugar carros para a sua equipe realizar as entregas, e prefere carros mais espaçosos e robustos. João tem conhecimentos básicos em tecnologia e costuma usar aplicativos de gestão empresarial em seu trabalho.
+
 
 Mapa de Empatia da Persona 2 - Cliente Pessoa Jurídica:
 
@@ -187,10 +190,14 @@ Mapa de Empatia da Persona 2 - Cliente Pessoa Jurídica:
 
 
 Persona 3 - Motorista de aplicativos:
+
 Nome: Felipe
+
 Descrição: Felipe é um jovem de 25 anos que trabalha como motorista de aplicativos em tempo integral. Ele não tem carro próprio e precisa alugar um veículo para trabalhar. Felipe busca um carro econômico e confortável para dirigir por longas horas, além de um preço acessível para poder ter uma renda satisfatória. Ele tem conhecimentos avançados em tecnologia e está sempre buscando ferramentas e aplicativos para otimizar o seu trabalho.
 
+
 Mapa de Empatia da Persona 3 - Motorista de aplicativos:
+
 
 |O que a persona vê?      |	       O que a persona ouve?      |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
 |----------------------------|--------------------------------------|--------------------------------------|--------------------------------------------|
