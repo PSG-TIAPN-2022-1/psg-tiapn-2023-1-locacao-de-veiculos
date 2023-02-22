@@ -154,8 +154,11 @@ Administradores do sistema: Esses usuários são responsáveis por manter e atua
 
 ......  
 Persona 1 - Cliente Pessoa Física:
+
 Nome: Ana
+
 Descrição: Ana é uma mulher de 30 anos que mora na cidade e precisa de um carro para se locomover com frequência. Ela prefere carros compactos e econômicos e não quer gastar muito dinheiro com combustível. Ana não tem conhecimentos avançados em tecnologia, mas usa smartphones e aplicativos com frequência.
+
 Mapa de Empatia da Persona 1 - Cliente Pessoa Física:
 
 |O que a persona vê?      |	       O que a persona ouve?  |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
