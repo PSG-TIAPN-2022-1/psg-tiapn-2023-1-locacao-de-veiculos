@@ -161,17 +161,10 @@ Mapa de Empatia da Persona 1 - Cliente Pessoa Física:
 |O que a persona vê?      |	       O que a persona ouve?  |    O que a persona pensa e sente?    |       O que a persona diz e faz?           |
 |-------------------------|-----------------------------------|--------------------------------------|--------------------------------------------|
 |Dificuldades de locomoção|Comentários de amigos e familiares |	Quer economizar e gastar pouco com  combustível |Pesquisa carros compactos e econômicos.     |
-|                         |                                   |         	                     |                                            |
-|                         |                                   |                                      |                                            |
-|                         |				      |					     |						  |
 |Anúncios em aplicativos e redes socias              | Sugestões de amigos               | Precisa de um carro para se locomover|   Usa aplicativos para comparar preços     |
-|		          |                                   |                                      |                                            |
-|			  |				      |					     |						  |
-|Opções variadas de       |  Propagandas em meios de          |   Tem medo de ser enganada ou ter    |    Verifica as avaliações das locadoras    |
-|locadoras                |  comunicação                      |  problemas                           |                                            |
-|			  |				      |					     |						  |
-|Opiniões de outros       | Comentários sobre o mercado de    |  Deseja praticidade e agilidade      |    Realiza a reserva pelo aplicativo       |
-|  usuários               | locação de carros                 |                                      |                                            |
+|Opções variadas de locadoras|  Propagandas em meios de comunicação|Tem medo de ser enganada ou ter problemas| Verifica as avaliações das locadoras|
+|Opiniões de outros usuários   | Comentários sobre o mercado de locação de carros | Deseja praticidade e agilidade| Realiza a reserva pelo aplicativo |
+
                 
 
 
