@@ -164,8 +164,9 @@ Mapa de Empatia da Persona 1 - Cliente Pessoa Física:
 |                         |                                   | combustível	                     |                                            |
 |                         |                                   |                                      |                                            |
 |                         |				      |					     |						  |
-|Anúncios em aplicativos e| Sugestões de amigos               | Precisa de um carro para se locomover|   Usa aplicativos para comparar preços     |
-|redes sociais	          |                                   |                                      |                                            |
+|Anúncios em aplicativos e
+redes socias              | Sugestões de amigos               | Precisa de um carro para se locomover|   Usa aplicativos para comparar preços     |
+|		          |                                   |                                      |                                            |
 |			  |				      |					     |						  |
 |Opções variadas de       |  Propagandas em meios de          |   Tem medo de ser enganada ou ter    |    Verifica as avaliações das locadoras    |
 |locadoras                |  comunicação                      |  problemas                           |                                            |
