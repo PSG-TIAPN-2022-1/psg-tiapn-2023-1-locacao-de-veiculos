@@ -295,7 +295,29 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... Durante a execução do projeto, o grupo adotou metodologias ágeis para orientar o processo de trabalho. Essa abordagem permitiu uma maior flexibilidade na tomada de decisões e adaptação às necessidades do projeto em tempo real. A equipe se dividiu em papéis e tarefas, cada um com suas responsabilidades específicas, para garantir a execução das atividades de maneira organizada e eficiente. 
+
+Para garantir a comunicação fluida entre os membros da equipe, foram utilizadas ferramentas como o Discord e o Trello. O Discord permitiu a troca de mensagens instantâneas, a organização de canais temáticos e a realização de reuniões virtuais. Já o Trello foi utilizado para gerenciar as tarefas, definir prioridades e acompanhar o status de cada atividade. 
+
+A gestão de configuração do projeto foi realizada por meio da plataforma GitHub. Essa ferramenta permitiu o controle das versões do projeto, a colaboração entre os membros da equipe e o rastreamento de bugs.  
+
+Em suma, a adoção de metodologias ágeis, a divisão de papéis e tarefas, a utilização de ferramentas de comunicação e gerenciamento de tarefas, e a gestão de configuração do projeto via GitHub foram fundamentais para o sucesso do projeto. Essas práticas permitiram que a equipe trabalhasse de maneira colaborativa, organizada e eficiente, resultando em um produto final de alta qualidade e satisfação dos clientes. 
+
+Processo Design Thinking 
+
+Montamos um passo a passo a seguir: 
+
+Empatia: Comece com a compreensão das necessidades e perspectivas dos usuários do site, incluindo seus objetivos ao alugar um carro, as dificuldades que enfrentam durante o processo de reserva, suas preferências de pagamento e outros fatores importantes. 
+
+Definição do problema: Com base nas informações coletadas na etapa anterior, defina o problema ou problemas que o site de locação de veículos precisa resolver para melhorar a experiência do usuário e atender às suas necessidades de maneira mais eficaz. 
+
+Ideação: Use técnicas criativas de brainstorming para gerar ideias para melhorar o site de locação de veículos. Considere ideias como tornar o processo de reserva mais fácil e intuitivo, fornecer informações mais detalhadas sobre a frota de veículos disponíveis, oferecer diferentes opções de pagamento, incluindo pacotes de seguro mais completos, entre outras. 
+
+Prototipagem: Com base nas ideias geradas na etapa anterior, crie protótipos de soluções possíveis. Os protótipos podem incluir esboços de telas, modelos em papel, modelos de interface de usuário, etc. 
+
+Teste: Teste os protótipos com usuários reais e obtenha feedback para entender o que funciona e o que não funciona. Use o feedback para iterar e refinar as soluções até chegar a uma solução final que resolva os problemas identificados na etapa de empatia e ofereça uma experiência de usuário excelente. 
+
+Implementação: Depois de finalizar a solução, implemente-a no site de locação de veículos. Monitore os resultados e faça ajustes conforme necessário para garantir que a solução continue atendendo às necessidades dos usuários e melhorando a experiência geral do usuário. ......
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -315,7 +337,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Rafael Ricardo de Oliveira Goulart: Desenvolvedor Web 
+
+Marcos Rocha Simões Araújo: Scrum Master 
+
+Vitor Carvalho Soares de Paula: Desenvolvedor Web 
+
+Lucas Laboissiere Ferreira: Desenvolvedor Web 
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -332,8 +360,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Hospedagem do site | GitHub | (ainda não foi postado) | 
+|Protótipo Interativo | Figma | [https://figma.com/XXXXXXX](https://www.figma.com/file/xCB3boTCCdGYgvyjzM0oKn/Untitled?node-id=0%3A1&t=b2XOCvu1dZlVSDHk-1) | 
+|Editor de código | VScode | sem link | 
+|Ferramentas de comunicação | Teams, Discord e WhatsApp | sem link| 
+|Ferramentas de diagramação| Figma e Trello |(https://trello.com/b/hiCVF8D8/kanban-quadro) | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
@@ -360,7 +391,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... A configuração do projeto na ferramenta de versionamento Git foi realizada de maneira cuidadosa, garantindo a integridade do código-fonte e a colaboração eficiente da equipe. O Github foi utilizado para hospedagem do repositório upstream, que serviu como base para o desenvolvimento do projeto. 
+
+A gerência de tags, merges, commits e branchs foi realizada de acordo com boas práticas do Git. Foram criados branchs específicos para cada funcionalidade do projeto e os commits foram realizados com mensagens claras e descritivas. A gerência de merges foi realizada com cuidado, garantindo que o código fosse integrado de maneira adequada e sem conflitos com outras funcionalidades em desenvolvimento. A utilização de tags foi feita para marcar pontos de referência importantes no desenvolvimento do projeto, como versões específicas ou lançamentos. 
+
+A gerência de issues foi realizada utilizando a funcionalidade nativa do Github para registro e rastreamento de problemas. Cada problema foi registrado como um issue no repositório, e a equipe trabalhou em conjunto para resolvê-los. A ferramenta permitiu que cada issue fosse atribuído a um membro da equipe e fossem monitorados o status e as atividades relacionadas a ele. 
+
+Em resumo, a ferramenta de controle de versão adotada no projeto, o Git, e a hospedagem no Github, permitiram uma gestão eficiente de tags, merges, commits e branchs. A gerência de issues foi realizada de maneira simples e organizada, permitindo que a equipe trabalhasse em conjunto para resolver problemas e melhorar a qualidade do projeto. ......
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
