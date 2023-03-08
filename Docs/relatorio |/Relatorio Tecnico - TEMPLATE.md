@@ -85,13 +85,11 @@ Em geral, a motivação para trabalhar nesta aplicação vem da necessidade de f
 
 ## Público-Alvo
 
-......  A aplicação de locação de carros terá diferentes perfis de usuários, cada um com suas próprias necessidades e características. Aqui estão alguns exemplos:
+......  Podemos identificar um público-alvo em potencial, que são pessoas e empresas que buscam um serviço de aluguel de carros de forma fácil, prática e segura. Este público-alvo pode incluir homens e mulheres de diferentes idades, incluindo jovens adultos (entre 18 e 30 anos), adultos (entre 31 e 50 anos) e idosos (acima de 50 anos).
 
-Clientes: Esses são os usuários finais da aplicação, aqueles que reservam e alugam os carros. Eles podem ter diferentes níveis de conhecimento prévio sobre a tecnologia, variando de usuários experientes a pessoas que têm menos experiência com dispositivos eletrônicos. Eles provavelmente estarão procurando uma experiência de reserva fácil e rápida, e uma aplicação intuitiva que facilite o processo de aluguel de carros.
+A aplicação web de locação de veículos pode atender a diferentes necessidades desse público-alvo. Viajantes a lazer ou a negócios podem encontrar facilmente um carro para se locomover durante sua estadia, enquanto residentes urbanos podem alugar um carro para necessidades diárias, como compras ou transporte para o trabalho. Empresas de transporte também podem se beneficiar da facilidade de alugar veículos para fins comerciais.
 
-Funcionários da empresa de locação de carros: Esses usuários podem incluir gerentes de frota, atendentes de balcão e funcionários de manutenção. Eles precisam de uma interface de gerenciamento de estoque clara e fácil de usar, que permita que eles monitorem a disponibilidade dos veículos, programem a manutenção preventiva e gerenciem o processo de locação. Eles podem ter conhecimentos técnicos mais avançados sobre a tecnologia e podem precisar de treinamento específico para utilizar a aplicação.
-
-Administradores do sistema: Esses usuários são responsáveis por manter e atualizar a aplicação. Eles podem ter conhecimentos técnicos avançados e precisam ser capazes de resolver problemas técnicos, realizar atualizações de segurança e manter o sistema funcionando de forma eficiente. Eles também podem precisar gerenciar o acesso à aplicação para diferentes usuários, garantindo que cada usuário tenha as permissões corretas. ......
+Para atender às necessidades desse público-alvo, a aplicação web de locação de veículos deve ser projetada e desenvolvida de forma a oferecer uma experiência de uso amigável e intuitiva, com funcionalidades que permitam ao usuário pesquisar e reservar carros de forma rápida e eficiente. Além disso, a aplicação deve garantir a segurança e privacidade dos dados do usuário, com o cumprimento das leis e regulamentações de proteção de dados, como a Lei Geral de Proteção de Dados (LGPD) no Brasil. ......
 
 
  
@@ -126,7 +124,7 @@ Persona 2 - Cliente Pessoa Jurídica:
 
 Nome: João
 
-Descrição: João é um empresário de 45 anos que administra uma pequena empresa de entregas na cidade. Ele precisa alugar carros para a sua equipe realizar as entregas, e prefere carros mais espaçosos e robustos. João tem conhecimentos básicos em tecnologia e costuma usar aplicativos de gestão empresarial em seu trabalho.
+Descrição: João é um empresário de 46 anos que administra uma pequena empresa de entregas na cidade. Ele precisa alugar carros para a sua equipe realizar as entregas, e prefere carros mais espaçosos e robustos. João tem conhecimentos básicos em tecnologia e costuma usar aplicativos de gestão empresarial em seu trabalho.
 
 
 Mapa de Empatia da Persona 2 - Cliente Pessoa Jurídica:
@@ -144,7 +142,7 @@ Persona 3 - Motorista de aplicativos:
 
 Nome: Felipe
 
-Descrição: Felipe é um jovem de 25 anos que trabalha como motorista de aplicativos em tempo integral. Ele não tem carro próprio e precisa alugar um veículo para trabalhar. Felipe busca um carro econômico e confortável para dirigir por longas horas, além de um preço acessível para poder ter uma renda satisfatória. Ele tem conhecimentos avançados em tecnologia e está sempre buscando ferramentas e aplicativos para otimizar o seu trabalho.
+Descrição: Felipe é um jovem de 22 anos que trabalha como motorista de aplicativos em tempo integral. Ele não tem carro próprio e precisa alugar um veículo para trabalhar. Felipe busca um carro econômico e confortável para dirigir por longas horas, além de um preço acessível para poder ter uma renda satisfatória. Ele tem conhecimentos avançados em tecnologia e está sempre buscando ferramentas e aplicativos para otimizar o seu trabalho.
 
 
 Mapa de Empatia da Persona 3 - Motorista de aplicativos:
@@ -192,6 +190,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Pagamento online seguro  | ALTA |
 |RF-003| Calendário de disponibilidade de veículos  | ALTA |
 |RF-004| Filtro de pesquisa  | ALTA |
+|RF-005| Sistema de cadastro de clientes | MÉDIA |
+|RF-006| Avaliações e comentários dos clientes | BAIXA |
+|RF-007| Sistema de atendimento ao cliente | BAIXA |
 
 
 
@@ -201,9 +202,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Segurança | ALTA | 
 |RNF-002| Velocidade |  MÉDIA | 
-|RNF-003| Usabilidade |  MÉDIA | 
+|RNF-003| Usabilidade |  ALTA | 
 |RNF-004| Confiabilidade |  MÉDIA | 
-|RNF-005| Escalabilidade |  MÉDIA | 
+|RNF-005| Escalabilidade |  BAIXA | 
+|RNF-006| Compatibilidade | ALTA |
+|RNF-007| Manutenibilidade | MÉDIA |
 
 
 
@@ -215,7 +218,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| Restrição Legal: O site deve estar em conformidade com as leis e regulamentações locais e nacionais de locação de veículos, incluindo requisitos para documentação, seguro e segurança veicular. |
-|02| Restrição Linguagens: Html, Css, JS e Banco de dados(não especificado) |
+|02| Regulamentações de privacidade de dados: Para garantir a conformidade com o RGPD, a aplicação deve implementar uma política de privacidade clara e concisa, que explique aos usuários como seus dados pessoais serão coletados, armazenados e usados. |
 
 
 
@@ -299,13 +302,13 @@ Implementação: Depois de finalizar a solução, implemente-a no site de locaç
 
 ## Divisão de Papéis
 
-Rafael Ricardo de Oliveira Goulart: Desenvolvedor Web 
+Rafael Ricardo de Oliveira Goulart: Desenvolvedor Full Stack 
 
-Marcos Rocha Simões Araújo: Scrum Master 
+Marcos Rocha Simões Araújo: Scrum Master/Desenvolvedor Full Stack 
 
-Vitor Carvalho Soares de Paula: Desenvolvedor Web 
+Vitor Carvalho Soares de Paula: Desenvolvedor Full Stack 
 
-Lucas Laboissiere Ferreira: Desenvolvedor Web 
+Lucas Laboissiere Ferreira: Desenvolvedor Full Stack 
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
