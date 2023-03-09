@@ -226,12 +226,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+......  O projeto de criação de site de locação de veículos exigirá uma interface amigável, intuitiva e fácil de usar para os usuários, que permita a reserva e a busca de veículos disponíveis, bem como a visualização de informações importantes, como preços, horários e datas.
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Para atender a esses requisitos, o site será dividido em três principais interfaces: a interface de busca e reserva de veículos, a interface de gerenciamento de conta do usuário e a interface de gerenciamento de veículos para o administrador.
+
+A interface de busca e reserva de veículos terá um formulário de pesquisa que permitirá aos usuários pesquisar veículos disponíveis com base em diferentes critérios, como localização, datas de reserva e tipo de veículo. A interface também permitirá aos usuários ver fotos dos veículos disponíveis, informações sobre preços, horários e outras informações relevantes, como políticas de seguro.
+
+A interface de gerenciamento de conta do usuário permitirá aos usuários acessar e gerenciar suas informações pessoais, como nome, endereço e informações de pagamento, bem como visualizar o histórico de reservas e transações anteriores.
+
+A interface de gerenciamento de veículos para o administrador permitirá gerenciar informações sobre veículos disponíveis, como preço, horários de disponibilidade e informações de reserva. Além disso, o administrador também poderá gerenciar o processo de reserva de veículos, verificar as transações e visualizar informações de usuários registrados.
+
+Para garantir que as interfaces atendam aos requisitos funcionais, não funcionais e histórias de usuário, será necessário realizar testes de usabilidade e coletar feedback dos usuários durante todo o processo de desenvolvimento. Isso permitirá que a equipe de desenvolvimento faça ajustes e melhorias conforme necessário para garantir que as interfaces sejam eficazes e atendam às necessidades dos usuários.......
 
 ## User Flow
 
