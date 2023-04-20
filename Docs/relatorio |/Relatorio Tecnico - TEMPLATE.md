@@ -228,15 +228,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  O projeto de criação de site de locação de veículos exigirá uma interface amigável, intuitiva e fácil de usar para os usuários, que permita a reserva e a busca de veículos disponíveis, bem como a visualização de informações importantes, como preços, horários e datas.
 
-Para atender a esses requisitos, o site será dividido em três principais interfaces: a interface de busca e reserva de veículos, a interface de gerenciamento de conta do usuário e a interface de gerenciamento de veículos para o administrador.
+Para atender a esses requisitos, o site será dividido em duas principais interfaces: a interface de busca e reserva de veículos, a interface de gerenciamento de conta do usuário.
 
 A interface de busca e reserva de veículos terá um formulário de pesquisa que permitirá aos usuários pesquisar veículos disponíveis com base em diferentes critérios, como localização, datas de reserva e tipo de veículo. A interface também permitirá aos usuários ver fotos dos veículos disponíveis, informações sobre preços, horários e outras informações relevantes, como políticas de seguro.
-
 A interface de gerenciamento de conta do usuário permitirá aos usuários acessar e gerenciar suas informações pessoais, como nome, endereço e informações de pagamento, bem como visualizar o histórico de reservas e transações anteriores.
 
-A interface de gerenciamento de veículos para o administrador permitirá gerenciar informações sobre veículos disponíveis, como preço, horários de disponibilidade e informações de reserva. Além disso, o administrador também poderá gerenciar o processo de reserva de veículos, verificar as transações e visualizar informações de usuários registrados.
-
-Para garantir que as interfaces atendam aos requisitos funcionais, não funcionais e histórias de usuário, será necessário realizar testes de usabilidade e coletar feedback dos usuários durante todo o processo de desenvolvimento. Isso permitirá que a equipe de desenvolvimento faça ajustes e melhorias conforme necessário para garantir que as interfaces sejam eficazes e atendam às necessidades dos usuários.......
 
 ## User Flow
 
@@ -259,33 +255,28 @@ Para garantir que as interfaces atendam aos requisitos funcionais, não funciona
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Página Inicial:
+Nossa home terá uma interface bem intuitiva para o cliente ir direto ao ponto que deseja, reservar um veículo.
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+![wiframe home page](images/wireframe.png)
+
+Página de login:
+Página de login simples, com a opção de cadastro e esqueci senha.
+
+![página de login](images/wireframe-login.png)
+
+Página de Cadastro:
+Página de cadastro, com preenchimento de dados do usuário.
+
+![página de cadastro](images/wireframe-cadastro.png)
 
 
 # Metodologia
 
-...... Durante a execução do projeto, o grupo adotou metodologias ágeis para orientar o processo de trabalho. Essa abordagem permitiu uma maior flexibilidade na tomada de decisões e adaptação às necessidades do projeto em tempo real. A equipe se dividiu em papéis e tarefas, cada um com suas responsabilidades específicas, para garantir a execução das atividades de maneira organizada e eficiente. 
-
+Durante a execução do projeto, o grupo adotou metodologias ágeis para orientar o processo de trabalho. Essa abordagem permitiu uma maior flexibilidade na tomada de decisões e adaptação às necessidades do projeto em tempo real. A equipe se dividiu em papéis e tarefas, cada um com suas responsabilidades específicas, para garantir a execução das atividades de maneira organizada e eficiente. 
 Para garantir a comunicação fluida entre os membros da equipe, foram utilizadas ferramentas como o Discord e o Trello. O Discord permitiu a troca de mensagens instantâneas, a organização de canais temáticos e a realização de reuniões virtuais. Já o Trello foi utilizado para gerenciar as tarefas, definir prioridades e acompanhar o status de cada atividade. 
 
 A gestão de configuração do projeto foi realizada por meio da plataforma GitHub. Essa ferramenta permitiu o controle das versões do projeto, a colaboração entre os membros da equipe e o rastreamento de bugs.  
-
-Em suma, a adoção de metodologias ágeis, a divisão de papéis e tarefas, a utilização de ferramentas de comunicação e gerenciamento de tarefas, e a gestão de configuração do projeto via GitHub foram fundamentais para o sucesso do projeto. Essas práticas permitiram que a equipe trabalhasse de maneira colaborativa, organizada e eficiente, resultando em um produto final de alta qualidade e satisfação dos clientes. 
 
 Processo Design Thinking 
 
@@ -331,7 +322,7 @@ Lucas Laboissiere Ferreira: Desenvolvedor Full Stack
 |Hospedagem do site | GitHub | (ainda não foi postado) | 
 |Protótipo Interativo | Figma | (https://www.figma.com/file/xCB3boTCCdGYgvyjzM0oKn/Untitled?node-id=0%3A1&t=b2XOCvu1dZlVSDHk-1) | 
 |Editor de código | VScode | sem link | 
-|Ferramentas de comunicação | Teams, Discord e WhatsApp | sem link| 
+|Ferramentas de comunicação | Teams, Discord e WhatsApp | (https://chat.whatsapp.com/JJ8LBqwDElmAgA26f1STNy)| 
 |Ferramentas de diagramação| Figma e Trello |(https://trello.com/b/hiCVF8D8/kanban-quadro) | 
 
 > O VScodefoi escolhido porque ele possui uma integração com o
@@ -343,13 +334,7 @@ Lucas Laboissiere Ferreira: Desenvolvedor Full Stack
 
 ## Controle de Versão
 
-...... A configuração do projeto na ferramenta de versionamento Git foi realizada de maneira cuidadosa, garantindo a integridade do código-fonte e a colaboração eficiente da equipe. O Github foi utilizado para hospedagem do repositório upstream, que serviu como base para o desenvolvimento do projeto. 
-
-A gerência de tags, merges, commits e branchs foi realizada de acordo com boas práticas do Git. Foram criados branchs específicos para cada funcionalidade do projeto e os commits foram realizados com mensagens claras e descritivas. A gerência de merges foi realizada com cuidado, garantindo que o código fosse integrado de maneira adequada e sem conflitos com outras funcionalidades em desenvolvimento. A utilização de tags foi feita para marcar pontos de referência importantes no desenvolvimento do projeto, como versões específicas ou lançamentos. 
-
-A gerência de issues foi realizada utilizando a funcionalidade nativa do Github para registro e rastreamento de problemas. Cada problema foi registrado como um issue no repositório, e a equipe trabalhou em conjunto para resolvê-los. A ferramenta permitiu que cada issue fosse atribuído a um membro da equipe e fossem monitorados o status e as atividades relacionadas a ele. 
-
-Em resumo, a ferramenta de controle de versão adotada no projeto, o Git, e a hospedagem no Github, permitiram uma gestão eficiente de tags, merges, commits e branchs. A gerência de issues foi realizada de maneira simples e organizada, permitindo que a equipe trabalhasse em conjunto para resolver problemas e melhorar a qualidade do projeto. ......
+Nosso controle de versão será feito através da extensão do github ao Visual Studio Code para fazermos os commits diretamento ao Github.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
