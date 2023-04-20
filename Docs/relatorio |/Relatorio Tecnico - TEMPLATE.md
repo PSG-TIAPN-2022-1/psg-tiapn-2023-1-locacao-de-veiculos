@@ -384,7 +384,7 @@ Em resumo, a ferramenta de controle de versão adotada no projeto, o Git, e a ho
 
 > Nosso segundo diagrama já focamos melhor em toda dificuldade que se poderia ter no processo, em possibilidades do usuário e do sistema durante a nevegação.
 > Baseamos agora apenas no processo que nossa aplicação vai realizar, que é simplesmente a Reserva do veículo! Nossa aplicação deve atender esse passo da melhor forma possível.
-> ![Diagrama melhorado](images/diagrama-depois.png)
+> ![Diagrama melhorado](images/diagram_DEPOIS.png)
 > 
 
 
