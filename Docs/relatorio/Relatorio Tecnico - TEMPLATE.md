@@ -302,7 +302,7 @@ Rafael Ricardo de Oliveira Goulart: Desenvolvedor Full Stack
 
 Marcos Rocha Simões Araújo: Scrum Master/Desenvolvedor Full Stack 
 
-Vitor Carvalho Soares de Paula: Desenvolvedor Full Stack 
+Vitor Carvalho Soares de Paula: Desenvolvedor Full Stack .
 
 Lucas Laboissiere Ferreira: Desenvolvedor Full Stack 
 
