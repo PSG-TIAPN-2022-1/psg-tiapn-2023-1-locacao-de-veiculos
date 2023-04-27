@@ -1,11 +1,11 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`Locação de veículos`  
 
 ......  Locação de Veículos ......
 
 `CURSO` 
 
-...... Análise e Desenvolvimento de Sistemas ......
+Projeto desenvolvido para a disciplina de Trabalho Interdisciplinar: Aplicações para Processos de Negócios do curso de Análise e desenvolvimento de sistemas da Pontifícia Universidade Católica de Minas Gerais.
 
 ## Participantes
 
@@ -61,41 +61,41 @@ O problema central que essa aplicação busca resolver é a simplificação do p
 
 ## Objetivos
 
-......  O objetivo geral do trabalho é desenvolver um software para solucionar o problema de gerenciamento de locação de carros. O software permitirá que os usuários aluguem carros por um determinado período de tempo, enquanto a empresa de locação de carros gerencia seus veículos e clientes de forma eficiente.
+O objetivo geral do trabalho é desenvolver um software para solucionar o problema de gerenciamento de locação de carros. O software permitirá que os usuários aluguem carros por um determinado período de tempo, enquanto a empresa de locação de carros gerencia seus veículos e clientes de forma eficiente.
 
 Para alcançar esse objetivo geral, é possível estabelecer os seguintes objetivos específicos:
 
 1 - Desenvolver um sistema de gerenciamento de estoque: O software deve permitir que a empresa de locação de carros gerencie seu estoque de veículos de forma eficiente, monitorando o status de cada carro, disponibilidade, manutenção e histórico de locações anteriores. Isso permitirá que a empresa tome decisões informadas sobre quando adquirir novos veículos, quando retirar veículos antigos e quando programar a manutenção preventiva.
 
-2 - Criar um sistema de reservas online: O software deve permitir que os usuários reservem carros online, escolhendo o modelo e a data de início e término da locação. O sistema deve calcular automaticamente o valor da locação com base no modelo do carro escolhido, duração da locação e outras taxas aplicáveis. Isso simplificará o processo de reserva para o usuário e permitirá que a empresa gerencie melhor suas reservas, reduzindo o risco de reservas duplicadas ou conflitantes. ......
+2 - Criar um sistema de reservas online: O software deve permitir que os usuários reservem carros online, escolhendo o modelo e a data de início e término da locação. O sistema deve calcular automaticamente o valor da locação com base no modelo do carro escolhido, duração da locação e outras taxas aplicáveis. Isso simplificará o processo de reserva para o usuário e permitirá que a empresa gerencie melhor suas reservas, reduzindo o risco de reservas duplicadas ou conflitantes.
 
 
 
 ## Justificativa
 
-......  A aplicação de locação de carros é importante porque oferece aos clientes uma alternativa de transporte flexível e acessível, sem a necessidade de possuir um veículo próprio. Além disso, é um serviço muito utilizado por viajantes e turistas, o que torna a aplicação uma opção interessante para o setor de turismo e mobilidade urbana.
+A aplicação de locação de carros é importante porque oferece aos clientes uma alternativa de transporte flexível e acessível, sem a necessidade de possuir um veículo próprio. Além disso, é um serviço muito utilizado por viajantes e turistas, o que torna a aplicação uma opção interessante para o setor de turismo e mobilidade urbana.
 
 No que diz respeito aos objetivos específicos, o sistema de gerenciamento de estoque é importante porque permite que a empresa de locação de carros gerencie seus veículos de forma eficiente, garantindo que seus veículos estejam sempre em boas condições de funcionamento e prontos para serem alugados. Além disso, o monitoramento do histórico de locações anteriores permite que a empresa identifique quais veículos são mais populares e possam ser adquiridos em maior quantidade.
 
 Já o sistema de reservas online é importante porque permite que os clientes reservem carros com antecedência e facilidade, o que aumenta a eficiência do processo de locação e reduz o risco de erros ou conflitos nas reservas. Além disso, com o sistema de reservas online, a empresa pode gerenciar melhor sua capacidade de oferta e demanda, e planejar seus estoques de veículos de acordo com a procura.
 
-Em geral, a motivação para trabalhar nesta aplicação vem da necessidade de fornecer um serviço mais eficiente, conveniente e acessível para os clientes que precisam de um meio de transporte temporário. Além disso, o gerenciamento eficiente dos veículos e das reservas pode ajudar a empresa a melhorar seus lucros e expandir seu negócio. ......
+Em geral, a motivação para trabalhar nesta aplicação vem da necessidade de fornecer um serviço mais eficiente, conveniente e acessível para os clientes que precisam de um meio de transporte temporário. Além disso, o gerenciamento eficiente dos veículos e das reservas pode ajudar a empresa a melhorar seus lucros e expandir seu negócio.
 
 
 
 ## Público-Alvo
 
-......  Podemos identificar um público-alvo em potencial, que são pessoas e empresas que buscam um serviço de aluguel de carros de forma fácil, prática e segura. Este público-alvo pode incluir homens e mulheres de diferentes idades, incluindo jovens adultos (entre 18 e 30 anos), adultos (entre 31 e 50 anos) e idosos (acima de 50 anos).
+Podemos identificar um público-alvo em potencial, que são pessoas e empresas que buscam um serviço de aluguel de carros de forma fácil, prática e segura. Este público-alvo pode incluir homens e mulheres de diferentes idades, incluindo jovens adultos (entre 18 e 30 anos), adultos (entre 31 e 50 anos) e idosos (acima de 50 anos).
 
 A aplicação web de locação de veículos pode atender a diferentes necessidades desse público-alvo. Viajantes a lazer ou a negócios podem encontrar facilmente um carro para se locomover durante sua estadia, enquanto residentes urbanos podem alugar um carro para necessidades diárias, como compras ou transporte para o trabalho. Empresas de transporte também podem se beneficiar da facilidade de alugar veículos para fins comerciais.
 
-Para atender às necessidades desse público-alvo, a aplicação web de locação de veículos deve ser projetada e desenvolvida de forma a oferecer uma experiência de uso amigável e intuitiva, com funcionalidades que permitam ao usuário pesquisar e reservar carros de forma rápida e eficiente. Além disso, a aplicação deve garantir a segurança e privacidade dos dados do usuário, com o cumprimento das leis e regulamentações de proteção de dados, como a Lei Geral de Proteção de Dados (LGPD) no Brasil. ......
+Para atender às necessidades desse público-alvo, a aplicação web de locação de veículos deve ser projetada e desenvolvida de forma a oferecer uma experiência de uso amigável e intuitiva, com funcionalidades que permitam ao usuário pesquisar e reservar carros de forma rápida e eficiente. Além disso, a aplicação deve garantir a segurança e privacidade dos dados do usuário, com o cumprimento das leis e regulamentações de proteção de dados, como a Lei Geral de Proteção de Dados (LGPD) no Brasil.
 
 
  
 # Especificações do Projeto
 
-......  Para o projeto de desenvolvimento da aplicação de locação de carros, será utilizada uma abordagem simples, com foco na especificação de requisitos e na definição da arquitetura do software. Para isso, serão utilizadas técnicas e ferramentas comuns em projetos de desenvolvimento de software, como análise de requisitos, especificação de casos de uso, modelagem de dados, prototipagem, diagramas de arquitetura e uma metodologia ágil de desenvolvimento. O objetivo é garantir que a solução atenda às necessidades dos usuários e seja desenvolvida de forma eficiente e eficaz. ......
+Para o projeto de desenvolvimento da aplicação de locação de carros, será utilizada uma abordagem simples, com foco na especificação de requisitos e na definição da arquitetura do software. Para isso, serão utilizadas técnicas e ferramentas comuns em projetos de desenvolvimento de software, como análise de requisitos, especificação de casos de uso, modelagem de dados, prototipagem, diagramas de arquitetura e uma metodologia ágil de desenvolvimento. O objetivo é garantir que a solução atenda às necessidades dos usuários e seja desenvolvida de forma eficiente e eficaz.
 
 
 
@@ -226,7 +226,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  O projeto de criação de site de locação de veículos exigirá uma interface amigável, intuitiva e fácil de usar para os usuários, que permita a reserva e a busca de veículos disponíveis, bem como a visualização de informações importantes, como preços, horários e datas.
+O projeto de criação de site de locação de veículos exigirá uma interface amigável, intuitiva e fácil de usar para os usuários, que permita a reserva e a busca de veículos disponíveis, bem como a visualização de informações importantes, como preços, horários e datas.
 
 Para atender a esses requisitos, o site será dividido em duas principais interfaces: a interface de busca e reserva de veículos, a interface de gerenciamento de conta do usuário.
 
@@ -336,8 +336,81 @@ Lucas Laboissiere Ferreira: Desenvolvedor Full Stack
 
 Nosso controle de versão será feito através da extensão do github ao Visual Studio Code para fazermos os commits diretamento ao Github.
 
-# **############## SPRINT 1 ACABA AQUI #############**
 
+# Modelagem do processo de negócio 
+
+Nesta fase, são desenvolvidos modelos que descrevem o fluxo de trabalho atual ou futuro de uma empresa, a fim de entender melhor como as atividades são realizadas e identificar oportunidades para melhorar a eficiência e eficácia do processo.
+
+## Análise da Situação Atual
+
+`Introdução`
+
+Este relatório tem como objetivo apresentar a análise da situação atual da aplicação de locação de veículos, que visa desenvolver um sistema de reserva de veículos para uma empresa de locação. A aplicação está sendo desenvolvida por um grupo de estudantes universitários como projeto de conclusão de curso.
+
+`Metodologia`
+
+A análise foi realizada por meio de reuniões com os membros da equipe, avaliação dos artefatos produzidos até o momento e análise de casos de uso e requisitos levantados. Foi realizada também uma avaliação do mercado de locação de veículos para identificar oportunidades de melhoria e tendências no setor.
+
+`Resultados`
+
+A seguir, serão apresentados os principais resultados da análise:
+
+`Escopo do projeto`
+
+O escopo do projeto foi bem definido e está alinhado com as necessidades do cliente.
+A equipe está trabalhando em um sistema de reserva de veículos, que permite ao cliente reservar um veículo por meio de uma plataforma online.
+
+`Tecnologias utilizadas`
+
+A equipe está utilizando tecnologias atuais e modernas para o desenvolvimento da aplicação, como Javascript,html5,css3,Bootstrap5,Microsoft SQL server.
+Há uma preocupação em manter a aplicação atualizada e seguindo as melhores práticas de desenvolvimento.
+
+`Dinâmica de trabalho em equipe`
+
+A equipe possui uma boa dinâmica de trabalho em equipe, com boa comunicação e colaboração entre os membros.
+Há uma boa distribuição de tarefas e responsabilidades, e cada integrante está ciente do seu papel no projeto.
+A equipe se comunica regularmente, seja por meio de reuniões presenciais ou virtuais, a fim de garantir o andamento do projeto.
+
+`Experiência prévia em projetos semelhantes`
+
+A maioria dos membros da equipe possui experiência prévia em projetos de desenvolvimento de software, o que pode contribuir para um desenvolvimento mais eficiente e assertivo.
+Alguns membros da equipe possuem conhecimento específico em desenvolvimento web e banco de dados, o que pode ser um diferencial no desenvolvimento da aplicação.
+
+`Oportunidades de melhoria`
+
+Identificou-se a oportunidade de implementação de um sistema de feedback para os usuários, a fim de identificar pontos de melhoria na aplicação.
+A análise do mercado identificou a tendência de utilização de inteligência artificial e machine learning na área de locação de veículos, o que pode ser uma oportunidade de expansão da aplicação no futuro.
+
+`Conclusão`
+
+Com base na análise realizada, podemos concluir que a equipe de desenvolvimento da aplicação de locação de veículos possui um bom potencial para o desenvolvimento do sistema. A equipe está trabalhando em um escopo bem definido, utilizando tecnologias atuais e modernas, e com uma boa dinâmica de trabalho em equipe. Além disso, a experiência prévia dos membros da equipe em projetos de desenvolvimento de software pode ser um diferencial no sucesso do projeto. Foram identificadas também oportunidades de melhoria na aplicação e tendências no mercado de locação de veículos que podem ser exploradas no futuro.
+
+## Descrição dos Processos Aprimorados
+
+> Nosso Primeiro diagrama foi baseado no conceito simples da locação
+> ![Primeiro Diagrama](images/LocacaoVeiculos.png)
+
+
+> Nosso segundo diagrama já focamos melhor em toda dificuldade que se poderia ter no processo, em possibilidades do usuário e do sistema durante a nevegação.
+> Baseamos agora apenas no processo que nossa aplicação vai realizar, que é simplesmente a Reserva do veículo! Nossa aplicação deve atender esse passo da melhor forma possível.
+> ![Diagrama melhorado](images/diagram_final.png)
+> 
+
+# Modelagem de Dados
+
+Desenvolvemos a modelagem de entidade e relaciona no Camunda desktop.
+
+## Diagrama de Entidade-Relacionamento
+
+![Modelo ER](images/modelo-ER.jpeg)
+
+## Modelo Relacional
+
+..aqui..
+
+# Relatórios analíticos
+
+..aqui..
 
 # Projeto da Solução
 
@@ -363,14 +436,7 @@ Nosso controle de versão será feito através da extensão do github ao Visual 
 ## Arquitetura da solução
 
 
-> Nosso Primeiro diagrama foi baseado no conceito simples da locação
-> ![Primeiro Diagrama](images/LocacaoVeiculos.png)
 
-
-> Nosso segundo diagrama já focamos melhor em toda dificuldade que se poderia ter no processo, em possibilidades do usuário e do sistema durante a nevegação.
-> Baseamos agora apenas no processo que nossa aplicação vai realizar, que é simplesmente a Reserva do veículo! Nossa aplicação deve atender esse passo da melhor forma possível.
-> ![Diagrama melhorado](images/diagram_final.png)
-> 
 
 
 # Avaliação da Aplicação
