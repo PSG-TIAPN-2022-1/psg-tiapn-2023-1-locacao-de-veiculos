@@ -406,7 +406,7 @@ Desenvolvemos a modelagem de entidade e relaciona no Camunda desktop.
 
 ## Modelo Relacional
 
-..aqui..
+![Modelo Relacional](images/modelo-relacional.jpeg)
 
 # Relatórios analíticos
 
