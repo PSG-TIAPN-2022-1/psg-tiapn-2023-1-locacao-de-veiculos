@@ -1,5 +1,5 @@
 # Locação de Veiculos
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+Nosso projeto busca atender uma demanda de locação de veículos, nosso principal objetivo é estabelecer a solicitação de reserva, integrando banco de dados ao projeto, bem como diversas tecnologias e disciplinas.
 
 ## Alunos integrantes da equipe
 
