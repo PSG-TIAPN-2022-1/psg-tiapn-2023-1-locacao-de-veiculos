@@ -1,0 +1,30 @@
+
+
+.nav{
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.count-reserva{
+    border: 1px solid;
+    background-color: rgb(43, 42, 42);
+    border-radius: 8px;
+    height: 150px;
+    margin-bottom: 70px
+}
+
+.carousel{
+    margin-bottom: 100px;
+}
+
+.frota{
+    margin-bottom: 200px;
+    margin-top: 130px;
+}
+
+.footer {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+}
