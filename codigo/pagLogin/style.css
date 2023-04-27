@@ -2,6 +2,11 @@ body {
 	background-color: #989c8e;
 }
 
+.nav{
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
 .login-container {
 	background-color: #fff;
 	width: 400px;
