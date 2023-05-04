@@ -59,7 +59,7 @@ input, select {
     padding-bottom: 30px;
   }
   input{
-    font-size: 15px;
+    font-size: 20px;
   }
   input[type=radio] {
     transform: scale(2.0);
@@ -86,9 +86,7 @@ input, select {
     bottom: 14px;
   }
   #celular{
-    padding-right: 300px;
     position: absolute;
-    left: 30px;
     top: 130px;
   }
   #email{
@@ -132,6 +130,6 @@ input[type=checkbox]{
     -webkit-transform: scale(2.0);
 }
 ::placeholder{
-    font-weight: 500;
+    font-weight: 700;
 }
 
