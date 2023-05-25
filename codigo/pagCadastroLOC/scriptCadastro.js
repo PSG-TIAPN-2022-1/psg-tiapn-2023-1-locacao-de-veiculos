@@ -1,7 +1,7 @@
 /*API para pegar Nacionalidades*/ 
-const selectNacionalidade = document.getElementById("nacionalidade");
+//const selectNacionalidade = document.getElementById("nacionalidade");
 
-fetch("https://restcountries.com/v3.1/all")
+/*fetch("https://restcountries.com/v3.1/all")
   .then(response => response.json())
   .then(data => {
     data.forEach(pais => {
@@ -10,7 +10,7 @@ fetch("https://restcountries.com/v3.1/all")
       option.text = pais.name.common;
       selectNacionalidade.appendChild(option);
     });
-  });
+ }); */
 
   /*Local Storage e Validação de senha*/ 
   const buttonCadastro = document.querySelector('#buttonCadastro');
@@ -18,18 +18,18 @@ fetch("https://restcountries.com/v3.1/all")
   buttonCadastro.addEventListener('click', (event) => {
     event.preventDefault();
     
-    const nomeCompleto = document.querySelector('#nomeCompleto').value;
-    const nacionalidade = document.querySelector('#nacionalidade').value;
-    const cpf = document.querySelector('#cpf').value;
-    const genero = document.querySelector('input[name="genero"]:checked').value;
-    const celular = document.querySelector('#celular').value;
-    const email = document.querySelector('#email').value;
+    const NOME_COMPLETO = document.querySelector('#nomeCompleto').value;
+    const NACIONALIDADE = document.querySelector('#nacionalidade').value;
+    const CPF = document.querySelector('#cpf').value;
+    const GENERO = document.querySelector('input[name="GENERO"]:checked').value;
+    const CELULAR = document.querySelector('#celular').value;
+    const EMAIL = document.querySelector('#email').value;
     const confirmarEmail = document.querySelector('#confirmarEmail').value;
-    const senha = document.querySelector('#senha').value;
+    const SENHA = document.querySelector('#senha').value;
     const confirmarSenha = document.querySelector('#confirmarSenha').value;
     const aceitarTermos = document.querySelector('#termos input[type="checkbox"]').checked;
     
-    if (senha !== confirmarSenha || email !== confirmarEmail) {
+    if (SENHA !== confirmarSenha || EMAIL !== confirmarEmail) {
       alert('As senhas e emails devem ser iguais.');
       return;
     }
@@ -38,15 +38,38 @@ fetch("https://restcountries.com/v3.1/all")
       alert('Você deve aceitar os termos de privacidade.');
       return;
     }
+
+    const formData = {
+      NOME_COMPLETO,
+      NACIONALIDADE,
+      CPF,
+      GENERO,
+      CELULAR,
+      EMAIL,
+      SENHA,
+      
+    };
+
+    // Enviar os dados para o servidor usando fetch()
+  fetch('http://localhost:8080/usuarios', {
     
-    localStorage.setItem('nomeCompleto', nomeCompleto);
-    localStorage.setItem('nacionalidade', nacionalidade);
-    localStorage.setItem('cpf', cpf);
-    localStorage.setItem('genero', genero);
-    localStorage.setItem('celular', celular);
-    localStorage.setItem('email', email);
-    localStorage.setItem('senha', senha);
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(formData)
+  })
+    .then(response => response.json())
+    .then(data => {
+      // A resposta do servidor pode ser tratada aqui
+      console.log('Resposta do servidor:', data);
+    })
+    .catch(error => {
+      // Tratar erros aqui
+      console.error('Erro:', error);
+    });
     
+        
     alert('Cadastro realizado com sucesso!');
   });
   
