@@ -12,31 +12,33 @@ const config = {
   database: 'seu_banco_de_dados',
 };
 
-// Rota de login
+const fetch = require('fecht');
+
 app.post('/login', async (req, res) => {
   const { email, senha } = req.body;
 
   try {
-    // Conectar ao banco de dados
-    await sql.connect(config);
+    // Executar chamada para verificar o email e senha
+    const response = await fetch('http://localhost:3000/usuarios/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, senha })
+    });
 
-    // Executar consulta para verificar o email e senha
-    const result = await sql.query(`SELECT * FROM usuarios WHERE email = '${email}' AND senha = '${senha}'`);
-
-    if (result.recordset.length === 1) {
+    if (response.ok) {
       // Usuário autenticado com sucesso
       res.status(200).json({ message: 'Login realizado com sucesso!' });
-    } else {
+    } else if (response.status === 401) {
       // Credenciais inválidas
       res.status(401).json({ error: 'Credenciais inválidas!' });
+    } else {
+      // Erro no servidor
+      res.status(500).json({ error: 'Erro no servidor!' });
     }
   } catch (error) {
-    // Erro na consulta ou na conexão com o banco de dados
+    // Erro na chamada
     console.error('Erro no login:', error);
     res.status(500).json({ error: 'Erro no servidor!' });
-  } finally {
-    // Fechar conexão com o banco de dados
-    sql.close();
   }
 });
 
