@@ -1,7 +1,7 @@
 /*API para pegar Nacionalidades*/ 
-//const selectNacionalidade = document.getElementById("nacionalidade");
+const selectNacionalidade = document.getElementById("nacionalidade");
 
-/*fetch("https://restcountries.com/v3.1/all")
+fetch("https://restcountries.com/v3.1/all")
   .then(response => response.json())
   .then(data => {
     data.forEach(pais => {
@@ -10,7 +10,7 @@
       option.text = pais.name.common;
       selectNacionalidade.appendChild(option);
     });
- }); */
+ }); 
 
   /*Local Storage e Validação de senha*/ 
   const buttonCadastro = document.querySelector('#buttonCadastro');
@@ -51,7 +51,7 @@
     };
 
     // Enviar os dados para o servidor usando fetch()
-  fetch('http://localhost:8080/usuarios', {
+  fetch('http://localhost:3000/api/usuarios', {
     
     method: 'POST',
     headers: {
