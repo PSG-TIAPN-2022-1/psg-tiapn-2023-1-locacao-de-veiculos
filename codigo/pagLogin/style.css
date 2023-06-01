@@ -46,9 +46,13 @@ input[type="submit"] {
 	cursor: pointer;
 }
 
-button{
+.direcionar{
 	color: #3e039e;
 	border: none;
 	
 
+}
+
+#logar{
+	margin: 0 auto;
 }
