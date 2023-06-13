@@ -1,15 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Monomaniac+One&display=swap');
 
+body{
+    background: linear-gradient(to bottom, #f09819, #edde5d); 
+}
 
 .nav{
     justify-content: flex-end;
     margin-right: 50px;
 }
 
+.nav a{
+    font-family: 'Monomaniac One', sans-serif;
+    color: rgb(255, 255, 0);
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+
+#div-botao{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+/* .button {
+    margin: 10%;
+    text-align: center;
+} */
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+  
+
+#btnConsultar{
+    margin-top: 15px;
+    margin-left: 35vw;
+    background-color: #f5c45b;
+    border: 0;
+}
+
+
+
 .count-reserva{
-    border: 1px solid;
-    background-color: rgb(43, 42, 42);
+    border: none;
+    background: linear-gradient(to bottom, #232526, #414345); 
     border-radius: 8px;
-    height: 150px;
+    height: 180px;
     margin-bottom: 70px
 }
 

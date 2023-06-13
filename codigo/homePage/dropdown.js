@@ -39,11 +39,3 @@ document.getElementById("local-input").addEventListener("click", mostrarLocais);
    localInput.value = selectedOption.value;
  }
 
- $(function() {
-    $("#data-input").datepicker({
-      dateFormat: "dd/mm/yy",
-      onSelect: function(dateText) {
-        $("#data-input").val(dateText);
-      }
-    });
-  });
