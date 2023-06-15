@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <!--CSS Botao Menu-->
     <link rel="stylesheet" href="style-botao-menu.css">
-    <!--JQuery-->
-    <link rel="stylesheet" href="caminho_para/jquery-ui.min.css">
+    
     <!--flatpick-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 </head>
@@ -28,10 +27,10 @@
     </button>
     <div class="collapse navbar-collapse nav" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="./index.html"><button class="glow-on-hover" type="button">Home <i class="bi bi-house"></i></button></a>
-        <a class="nav-link" href="../pagLogin/index.html"><button class="glow-on-hover" type="button">Login <i class="bi bi-box-arrow-in-right"></i></button></a>
+        <a  class="nav-link active" aria-current="page" href="./index.html"><button class="glow-on-hover" type="button">Home <i class="bi bi-house"></i></button></a>
+        <a id="login-button" class="nav-link" href="../pagLogin/index.html"><button class="glow-on-hover" type="button">Login <i class="bi bi-box-arrow-in-right"></i></button></a>
         
-        <a class="nav-link" href="#"><button class="glow-on-hover" type="button">Minhas Reservas <i class="bi bi-car-front"></i></button></a>
+        <a class="nav-link" href="../Nova pasta/locação.html" id="reservas-button"><button class="glow-on-hover" type="button">Minhas Reservas <i class="bi bi-car-front"></i></button></a>
         
       </div>
     </div>
@@ -57,7 +56,7 @@
           <span class="input-group-text" id="basic-addon2"><i class="bi bi-clock"></i></span>
         </div>
         <div id="div-botao">
-          <button class="btn-hover color-2">Consultar veículos</button>
+          <button id="consultar" class="btn-hover color-2">Consultar veículos</button>
           
         </div>
       </div>
@@ -84,6 +83,11 @@
     });
 
     </script>
+    <div id="teste">
+      <ul>
+        
+      </ul>
+    </div>
 
     <!--Carrousel-->
     <div id="carouselExampleIndicators" class="carousel slide w-50 mx-auto">
@@ -160,6 +164,8 @@
 
     <!--Script dropdown-->
     <script src="dropdown.js"></script>
+    <!--Logado-->
+    <script src="./logado.js"></script>
 
     
 
