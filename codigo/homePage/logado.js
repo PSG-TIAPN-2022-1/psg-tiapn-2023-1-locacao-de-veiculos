@@ -26,6 +26,8 @@
     }
   });
 
+  
+
   // Verifica se o usuário está logado e oculta o botão de login, se necessário
 function verificarLogado() {
   const authToken = localStorage.getItem('authToken');

@@ -56,12 +56,24 @@ document.getElementById("local-input").addEventListener("click", mostrarLocais);
  const btnConsultar = document.getElementById('consultar');
 
  btnConsultar.addEventListener('click', (event) => {
+    
     event.preventDefault();
+    //data
+    const inputData = document.getElementById('data-input').value;
+
+     // hora
+    const inputHora = document.getElementById('hora-input').value;
+    
+    //local
     const dadosInput = document.getElementById('local-input').value;
     const dadosSeparados = dadosInput.split(',');
     const cidade = dadosSeparados[0].trim();
     const rua = dadosSeparados[1].trim();
     const numero = parseInt(dadosSeparados[2].trim());
+
+    if(inputData==='' || inputHora==='' || dadosInput==''){
+      return alert("Preencha Local, Data e Hora!")
+    }
 
     fetch(`http://localhost:3000/api/locais/${numero}`)
     .then(response => response.json())
@@ -69,7 +81,7 @@ document.getElementById("local-input").addEventListener("click", mostrarLocais);
       // A resposta do servidor pode ser tratada aqui
       console.log('Resposta do servidor:', data.Cod_empresa);
       const codigo = data.Cod_empresa;
-      const novaURL = `../pagExibeCarros/index.html?codigo=${codigo}`;
+      const novaURL = `../pagExibeCarros/index.html?codigo=${codigo}&data=${inputData}&hora=${inputHora}&cidade=${cidade}&rua=${rua}&numero=${numero}`;
       window.location.href = novaURL;
     })
  })
