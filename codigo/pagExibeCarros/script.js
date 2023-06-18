@@ -14,6 +14,7 @@ function consultarVeiculos() {
     fetch(`http://localhost:3000/api/veiculos/${codigo}`)
   .then(response => response.json())
   .then(data => {
+    console.log("data: "+ data)
     //A resposta do servidor pode ser tratada aqui
     criarDiv(data, dataDeReserva,horaDeReserva,numero,rua,cidade)
   });
@@ -97,12 +98,13 @@ function criarDiv(data, dataDeReserva,horaDeReserva,numero,rua,cidade){
         //const codigo = urlParams.get('codigo');
         const dataDeReserva = urlParams.get('data');
         const horaDeReserva = urlParams.get('hora');
+        
     
         // const detalhesReserva = `Detalhes da reserva:\nLocal: ${cidade}, ${rua}, ${numero}\nData: ${dataDeReserva}\nHora: ${horaDeReserva}`;
     
         // const detalhesCarro = `Detalhes do carro:\nModelo: ${data[0][i].MODELO}\nMarca: ${data[0][i].MARCA}\nCombustível: ${data[0][i].COMBUSTIVEL}\nTransmissão: ${data[0][i].TRANSMISSAO}\nCor: ${data[0][i].COR}\nQuilometragem: ${data[0][i].QUILOMETRAGEM}\nValor Semanal: R$ ${data[0][i].ValorSemanal}`;
     
-        const novaURL = `./reservar.html?data=${dataDeReserva}&hora=${horaDeReserva}&cidade=${cidade}&rua=${rua}&numero=${numero}&modelo=${data[0][i].MODELO}&marca=${data[0][i].MARCA}&combustivel=${data[0][i].COMBUSTIVEL}&transmissao=${data[0][i].TRANSMISSAO}&cor=${data[0][i].COR}&quilometragem=${data[0][i].QUILOMETRAGEM}&valorsemanal=${data[0][i].ValorSemanal}&imagem=${data[0][i].IMAGEM_LINK}`; 
+        const novaURL = `./reservar.html?data=${dataDeReserva}&hora=${horaDeReserva}&cidade=${cidade}&rua=${rua}&numero=${numero}&modelo=${data[0][i].MODELO}&marca=${data[0][i].MARCA}&combustivel=${data[0][i].COMBUSTIVEL}&transmissao=${data[0][i].TRANSMISSAO}&cor=${data[0][i].COR}&quilometragem=${data[0][i].QUILOMETRAGEM}&valorsemanal=${data[0][i].ValorSemanal}&imagem=${data[0][i].IMAGEM_LINK}&idVeiculo=${data[0][i].ID}`; 
         
 
       // Redirecionar para a nova página exibindo os detalhes completos

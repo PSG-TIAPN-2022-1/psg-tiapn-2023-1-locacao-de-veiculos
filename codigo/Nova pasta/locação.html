@@ -6,31 +6,22 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../homePage/style-botao-menu.css">
+  <link rel="stylesheet" href="estilo.css">
   <style>
     body {
       background: linear-gradient(to bottom, #f09819, #edde5d);
       background-repeat: no-repeat;
+
     }
 
-    .car-list {
+    #reservasFeitas{
       display: flex;
-      flex-wrap: wrap;
-
+      flex-direction: column;
+      align-items: center;
+      flex-flow: row wrap;
+     
     }
-
-    .car-item {
-      width: 300px;
-      margin: 20px;
-      border: 1px solid #ccc;
-      padding: 20px;
-    }
-
-    .car-image {
-      width: 250px;
-      height: 120px;
-      object-fit: cover;
-    }
-
+    
     .titulo {
       justify-content: center;
       margin-top: 20px;
@@ -39,6 +30,7 @@
     .nav {
       justify-content: flex-end;
       display: flex;
+    
 
     }
 
@@ -74,62 +66,9 @@
   <main class="container">
 
     <h1 id="tituloID" class="titulo"></h1>
-    <div class="row ">
+    <div id="reservasFeitas">
 
-
-      <div class="car-list ">
-        <div class="car-list">
-          <div class="car-item">
-            <img class="car-image" src="./IMG/HB20.jpg.jpg" alt="Carro 1">
-            <h3>HB20</h3>
-            <p>O HB20 apresenta um design moderno e aerodinâmico, com linhas fluidas e detalhes estilizados.</p>
-            <a href="#">Ver detalhes</a>
-          </div>
-
-          <div class="car-item ">
-            <img class="car-image" src="./IMG/gol.jpg" alt="Carro 2">
-            <h3>GOL</h3>
-            <p>O carro GOL é um modelo de veículo produzido pela fabricante de automóveis Volkswagen.</p>
-            <a href="#">Ver detalhes</a>
-          </div>
-
-          <div class="car-item">
-            <img class="car-image" src="./IMG/FOX.jpg" alt="Carro 3">
-            <h3>FOX</h3>
-            <p>Volkswagen Fox é um carro compacto e versátil, adequado para uso urbano. </p>
-            <a href="#">Ver detalhes</a>
-          </div>
-
-        </div>
-        <div class="row">
-
-          <div class="car-list">
-            <div class="car-item">
-              <img class="car-image" src="./IMG/onix.jpg" alt="Carro 1">
-              <h3>ONIX</h3>
-              <p>Onix é um carro compacto com design atraente, bom desempenho e espaço interno adequado para
-                passageiros.</p>
-              <a href="#">Ver detalhes</a>
-            </div>
-
-            <div class="car-item">
-              <img class="car-image" src="./IMG/celta.jpg" alt="Carro 2">
-              <h3>CELTA</h3>
-              <p>Chevrolet Celta é um carro compacto e simples, adequado para uso urbano e com um design funcional.</p>
-              <a href="#">Ver detalhes</a>
-            </div>
-
-            <div class="car-item">
-              <img class="car-image" src="./IMG/up.jpg" alt="Carro 3">
-              <h3>UP</h3>
-              <p>Volkswagen Up! é um carro compacto com um design moderno, eficiência energética e espaço interno
-                surpreendente para sua categoria. </p>
-              <a href="#">Ver detalhes</a>
-
-            </div>
-          </div>
-
-        </div>
+    </div>
   </main>
 
   <!--Logout-->

@@ -1,21 +1,24 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const codigo = urlParams.get('codigo');
-    const dataDeReserva = urlParams.get('data')
-    const horaDeReserva = urlParams.get('hora')
-    const numero = urlParams.get('numero')
-    const rua = urlParams.get('rua')
-    const cidade = urlParams.get('cidade')
-    const modelo = urlParams.get('modelo')
-    const marca = urlParams.get('marca')
-    const combustivel = urlParams.get('combustivel')
-    const transmissao = urlParams.get('transmissao')
-    const cor = urlParams.get('cor')
-    const quilometragem = urlParams.get('quilometragem')
-    const valorsemanal = urlParams.get('valorsemanal')
-    const imagem = urlParams.get('imagem')
+  const urlParams = new URLSearchParams(window.location.search);
+  const codigo = urlParams.get('codigo');
+  const dataDeReserva = urlParams.get('data')
+  const horaDeReserva = urlParams.get('hora')
+  const numero = urlParams.get('numero')
+  const rua = urlParams.get('rua')
+  const cidade = urlParams.get('cidade')
+  const modelo = urlParams.get('modelo')
+  const marca = urlParams.get('marca')
+  const combustivel = urlParams.get('combustivel')
+  const transmissao = urlParams.get('transmissao')
+  const cor = urlParams.get('cor')
+  const quilometragem = urlParams.get('quilometragem')
+  const valorsemanal = urlParams.get('valorsemanal')
+  const imagem = urlParams.get('imagem')
+  const idVeiculo = urlParams.get('idVeiculo')
 
-    // Criar elementos HTML e exibir os dados
+  const userID = localStorage.getItem('userID');
+
+  // Criar elementos HTML e exibir os dados
   const container = document.getElementById('container');
 
   // Criar elemento para exibir a imagem do carro
@@ -49,6 +52,7 @@ window.addEventListener("DOMContentLoaded", () => {
             </symbol>
         </svg>
     </div>
+    <div id="aviso" style="display: none;"></div>
   `;
   container.appendChild(reservaDiv);
 
@@ -67,11 +71,112 @@ window.addEventListener("DOMContentLoaded", () => {
   `;
   container.appendChild(carroDiv);
 
-  
 
-  
-
+  var botao = document.querySelector(".reservabtn");
+  botao.addEventListener("click", (event) => {
+    event.preventDefault();
     
+    // const urlParams = new URLSearchParams(window.location.search);
+    // const codigo = urlParams.get('codigo');
+    // const dataDeReserva = urlParams.get('data')
+    // const horaDeReserva = urlParams.get('hora')
+    // const numero = urlParams.get('numero')
+    // const rua = urlParams.get('rua')
+    // const cidade = urlParams.get('cidade')
+    // const modelo = urlParams.get('modelo')
+    // const marca = urlParams.get('marca')
+    // const combustivel = urlParams.get('combustivel')
+    // const transmissao = urlParams.get('transmissao')
+    // const cor = urlParams.get('cor')
+    // const quilometragem = urlParams.get('quilometragem')
+    // const valorsemanal = urlParams.get('valorsemanal')
+    // const imagem = urlParams.get('imagem')
+
+    // Obter o userID do localStorage
+    const userID = localStorage.getItem('userID');
+
+    const dados = {
+      userID,
+      idVeiculo,
+      dataDeReserva,
+      horaDeReserva,
+      numero,
+      rua,
+      cidade,
+      modelo,
+      marca,
+      combustivel,
+      transmissao,
+      cor,
+      quilometragem,
+      valorsemanal,
+      imagem
+    };
+
+    var termosCheckbox = document.getElementById("morning");
+    var aviso = document.getElementById("aviso");
+    if (termosCheckbox.checked == true) {
+      // código para confirmar a reserva
+      aviso.style.display = "none";
+      aviso.classList.remove("shake");
+
+          // Enviar requisição POST para o servidor
+    fetch('http://localhost:3000/api/reservar', {
+
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(dados)
+  })
+    .then(response => response.json())
+    .then(data => {
+      // A resposta do servidor pode ser tratada aqui
+      console.log('Resposta do servidor:', data);
+    })
+    .catch(error => {
+      // Tratar erros aqui
+      console.error('Erro:', error);
+    });
+
+    fetch(`http://localhost:3000/api/veiculos/${idVeiculo}`, {
+      method: 'PUT',
+      headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(dados)
+  })
+    .then(response => response.json())
+    .then(data => {
+      // A resposta do servidor pode ser tratada aqui
+      console.log('Resposta do servidor:', data);
+    })
+    .catch(error => {
+      // Tratar erros aqui
+      console.error('Erro:', error);
+    });
+
+    window.alert('Reserva concluida')
+
+
+    } else {
+      aviso.innerHTML = "Por favor, aceite os termos antes de confirmar a reserva.";
+      aviso.style.display = "block";
+      aviso.classList.add("shake");
+
+    }
+
+    // Criar objeto com os dados a serem enviados
+    
+
+    console.log(dados)
+
+
   });
-  
-  
+
+
+
+});
+
+
+
