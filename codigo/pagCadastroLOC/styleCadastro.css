@@ -1,137 +1,184 @@
 /*Componentes de estrutura*/
-*{
-    margin: 0px;
-    padding: 0px;
-}
-main{
-    padding: 40px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Monomaniac+One&display=swap');
+body{
+  background: linear-gradient(to bottom, #f09819, #edde5d); 
 }
 /*Componentes Header*/
 .nav{
-  justify-content: flex-end;
-  margin-right: 50px;
+justify-content: flex-end;
+margin-right: 50px;
+}
+.nav a{
+  font-family: 'Monomaniac One', sans-serif;
+  color: rgb(255, 255, 0);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-2 {
+  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
 
 /*Componentes pag*/
 form{
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 input, select {
-    border-radius: 5px;
-    border: none;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-    font-size: 16px;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: gray;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: rgb(73, 72, 72);
-  }
-  .textDestaque{
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-  #nomeCompleto{
-    padding-right: 300px;
-  }
-  #nacionalidade{
-    position: absolute;
-    left: 500px;
-  }
-  #cpf{
-    padding-right: 300px;
-    position: absolute;
-    top: 60px;
-  }
-  #genero{
-    position: absolute;
-    left: 620px;
-    padding-bottom: 30px;
-  }
-  input{
-    font-size: 20px;
-  }
-  input[type=radio] {
-    transform: scale(2.0);
-    -webkit-transform: scale(2.0);
-  }
-  #femin{
-    position: absolute;
-    left: 260px;
-    bottom: 0px;
-  }
-  #feminino{
-    position: absolute;
-    left: 220px;
-    bottom: 14px;
-  }
-  #masc{
-    position: absolute;
-    left: 70px;
-    bottom: 0px;
-  }
-  #masculino{
-    position: absolute;
-    left: 35px;
-    bottom: 14px;
-  }
-  #celular{
-    position: absolute;
-    top: 130px;
-  }
-  #email{
-    padding-right: 300px;
-    position: absolute;
-    top: 220px;
-  }
-  #confirmarEmail{
-    padding-right: 300px;
-    position: absolute;
-    left: 500px;
-    top: 220px;
-  }
-  #senha{
-    padding-right: 300px;
-    position: absolute;
-    top: 290px;
-  }
-  #confirmarSenha{
-    padding-right: 300px;
-    position: absolute;
-    left: 500px;
-    top: 290px;
-  }
-#termos{
-    position: absolute;
-    top: 360px;
-}
-#buttonCadastro{
-    position: absolute;
-    left: 600px;
-    top: 330px;
-}
-.textoTermos{
-    position: absolute;
-    top: 360px;
-    left: 70px;
-}
-input[type=checkbox]{
-    transform: scale(2.0);
-    -webkit-transform: scale(2.0);
-}
-::placeholder{
-    font-weight: 400;
-    font-size: 15px;
-    padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
 }
 
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(73, 72, 72);
+}
+.textDestaque{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 800;
+}
+#nomeCompleto{
+  padding-right: 300px;
+}
+#nacionalidade{
+  position: absolute;
+  left: 500px;
+}
+#cpf{
+  padding-right: 300px;
+  position: absolute;
+  top: 60px;
+}
+#genero{
+  position: absolute;
+  left: 620px;
+  padding-bottom: 30px;
+}
+input{
+  font-size: 20px;
+}
+input[type=radio] {
+  transform: scale(2.0);
+  -webkit-transform: scale(2.0);
+}
+#femin{
+  position: absolute;
+  left: 260px;
+  bottom: 0px;
+}
+#feminino{
+  position: absolute;
+  left: 220px;
+  bottom: 14px;
+}
+#masc{
+  position: absolute;
+  left: 70px;
+  bottom: 0px;
+}
+#masculino{
+  position: absolute;
+  left: 35px;
+  bottom: 14px;
+}
+#celular{
+  position: absolute;
+  top: 130px;
+}
+#email{
+  padding-right: 300px;
+  position: absolute;
+  top: 220px;
+}
+#confirmarEmail{
+  padding-right: 300px;
+  position: absolute;
+  left: 500px;
+  top: 220px;
+}
+#senha{
+  padding-right: 300px;
+  position: absolute;
+  top: 290px;
+}
+#confirmarSenha{
+  padding-right: 300px;
+  position: absolute;
+  left: 500px;
+  top: 290px;
+}
+#termos{
+  position: absolute;
+  top: 360px;
+}
+#buttonCadastro{
+  position: absolute;
+  left: 600px;
+  top: 330px;
+}
+.textoTermos{
+  position: absolute;
+  top: 360px;
+  left: 70px;
+}
+input[type=checkbox]{
+  transform: scale(2.0);
+  -webkit-transform: scale(2.0);
+}
+::placeholder{
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+}
