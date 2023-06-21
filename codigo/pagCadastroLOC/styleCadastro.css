@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Monomaniac+One&display=swap');
 body{
   background: linear-gradient(to bottom, #f09819, #edde5d); 
+  background-repeat: no-repeat;
+  height: 130vh;
 }
 /*Componentes Header*/
 .nav{
@@ -14,8 +16,11 @@ margin-right: 50px;
   font-family: 'Monomaniac One', sans-serif;
   color: rgb(255, 255, 0);
 }
+nav a img{
+  width: 200px;
+}
 
-button {
+/* button {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: gray;
@@ -40,22 +45,9 @@ button:hover {
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-}
-.btn-hover:hover {
-  background-position: 100% 0;
-  -moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-.btn-hover:focus {
-  outline: none;
-}
+} */
 
-.btn-hover.color-2 {
-  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
-  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-}
+
 
 /*Componentes pag*/
 form{
@@ -85,8 +77,8 @@ button:hover {
 .textDestaque{
   margin-top: 80px;
   margin-bottom: 80px;
-  margin-left: 50px;
-  font-size: 20px;
+  margin-left: 120px;
+  font-size: 30px;
   font-weight: 800;
 }
 #nomeCompleto{
@@ -136,6 +128,7 @@ input[type=radio] {
 #celular{
   position: absolute;
   top: 130px;
+  margin-left: 13px;
 }
 #email{
   padding-right: 300px;
@@ -182,3 +175,7 @@ input[type=checkbox]{
   font-size: 15px;
   padding: 10px;
 }
+
+
+
+

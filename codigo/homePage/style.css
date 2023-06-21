@@ -17,9 +17,17 @@ body{
     color: rgb(255, 255, 0);
 }
 
+nav a img{
+    width: 200px;
+}
+
 h2{
     font-family: 'Lobster', cursive;
     font-size: 40px;
+}
+
+.card{
+    margin-bottom: 20px;
 }
 
 

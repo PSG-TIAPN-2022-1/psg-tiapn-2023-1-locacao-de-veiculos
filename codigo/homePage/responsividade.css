@@ -1,0 +1,92 @@
+
+  
+  /* Estilos adicionais para telas menores */
+  
+  @media (max-width: 576px) {
+    h2.text-center {
+      font-size: 45px;
+    }
+  
+    .count-reserva .input-group {
+      
+    }
+  
+    .input-group input[type="text"] {
+     
+    }
+  
+    #carouselExampleIndicators {
+      
+    }
+  
+    .frota .card {
+      
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 992px) {
+    h2.text-center {
+      font-size: 28px;
+    }
+  
+    .count-reserva .input-group {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .input-group {
+      width: 100%;
+    }
+  
+    #carouselExampleIndicators {
+      width: 80%;
+    }
+  
+    .frota .card {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    h2.text-center {
+      font-size: 30px;
+    }
+  
+    .count-reserva .input-group {
+      flex-direction: row;
+      width: 100%;
+    }
+  
+    .input-group {
+      width: 33.33%;
+    }
+  
+    #carouselExampleIndicators {
+      width: 70%;
+    }
+  
+    .frota .card {
+      width: 33.33%;
+    }
+  }
+  
+  /* Estilos adicionais para telas maiores */
+  
+  /* @media (min-width: 1201px) {
+    .count-reserva {
+      max-width: 800px;
+    }
+  
+    .input-group {
+      width: 25%;
+    }
+  
+    #carouselExampleIndicators {
+      width: 60%;
+    }
+  
+    .frota .card {
+      width: 25%;
+    }
+  } */
+  
