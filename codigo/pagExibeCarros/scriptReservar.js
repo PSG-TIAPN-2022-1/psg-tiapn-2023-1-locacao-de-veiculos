@@ -1,3 +1,7 @@
+//import { sendEmail } from "../../src/email";
+
+
+
 window.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const codigo = urlParams.get('codigo');
@@ -15,6 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const valorsemanal = urlParams.get('valorsemanal')
   const imagem = urlParams.get('imagem')
   const idVeiculo = urlParams.get('idVeiculo')
+  const PLACA = urlParams.get('PLACA')
 
   const userID = localStorage.getItem('userID');
 
@@ -75,22 +80,7 @@ window.addEventListener("DOMContentLoaded", () => {
   var botao = document.querySelector(".reservabtn");
   botao.addEventListener("click", (event) => {
     event.preventDefault();
-    
-    // const urlParams = new URLSearchParams(window.location.search);
-    // const codigo = urlParams.get('codigo');
-    // const dataDeReserva = urlParams.get('data')
-    // const horaDeReserva = urlParams.get('hora')
-    // const numero = urlParams.get('numero')
-    // const rua = urlParams.get('rua')
-    // const cidade = urlParams.get('cidade')
-    // const modelo = urlParams.get('modelo')
-    // const marca = urlParams.get('marca')
-    // const combustivel = urlParams.get('combustivel')
-    // const transmissao = urlParams.get('transmissao')
-    // const cor = urlParams.get('cor')
-    // const quilometragem = urlParams.get('quilometragem')
-    // const valorsemanal = urlParams.get('valorsemanal')
-    // const imagem = urlParams.get('imagem')
+
 
     // Obter o userID do localStorage
     const userID = localStorage.getItem('userID');
@@ -110,7 +100,8 @@ window.addEventListener("DOMContentLoaded", () => {
       cor,
       quilometragem,
       valorsemanal,
-      imagem
+      imagem,
+      PLACA
     };
 
     var termosCheckbox = document.getElementById("morning");
@@ -120,43 +111,55 @@ window.addEventListener("DOMContentLoaded", () => {
       aviso.style.display = "none";
       aviso.classList.remove("shake");
 
-          // Enviar requisição POST para o servidor
-    fetch('http://localhost:3000/api/reservar', {
+      // Enviar requisição POST para o servidor
+      fetch('http://localhost:3000/api/reservar', {
 
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(dados)
-  })
-    .then(response => response.json())
-    .then(data => {
-      // A resposta do servidor pode ser tratada aqui
-      console.log('Resposta do servidor:', data);
-    })
-    .catch(error => {
-      // Tratar erros aqui
-      console.error('Erro:', error);
-    });
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(dados)
+      })
+        .then(response => response.json())
+        .then(data => {
+          // A resposta do servidor pode ser tratada aqui
+          console.log('Resposta do servidor:', data);
+        })
+        .catch(error => {
+          // Tratar erros aqui
+          console.error('Erro:', error);
+        });
 
-    fetch(`http://localhost:3000/api/veiculos/${idVeiculo}`, {
-      method: 'PUT',
-      headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(dados)
-  })
-    .then(response => response.json())
-    .then(data => {
-      // A resposta do servidor pode ser tratada aqui
-      console.log('Resposta do servidor:', data);
-    })
-    .catch(error => {
-      // Tratar erros aqui
-      console.error('Erro:', error);
-    });
+      fetch(`http://localhost:3000/api/veiculos/${idVeiculo}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(dados)
+      })
+        .then(response => response.json())
+        .then(data => {
+          // A resposta do servidor pode ser tratada aqui
+          console.log('Resposta do servidor:', data);
+        })
+        .catch(error => {
+          // Tratar erros aqui
+          console.error('Erro:', error);
+        });
 
-    window.alert('Reserva concluida')
+      window.alert('Reserva concluida')
+
+      // fetch(`http://localhost:3000/api/usuarios/${userID}`)
+      // .then(response => response.json())
+      // .then(data => {
+      //   console.log("data: "+ data)
+        
+        
+      // });
+
+      //sendEmail()
+
+      window.location.href = '../Nova Pasta/locação.html'
 
 
     } else {
@@ -166,8 +169,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    // Criar objeto com os dados a serem enviados
-    
+
 
     console.log(dados)
 
@@ -177,6 +179,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
 
 });
+
+
 
 
 

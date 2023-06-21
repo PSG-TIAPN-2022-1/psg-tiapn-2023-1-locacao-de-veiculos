@@ -1,3 +1,6 @@
+
+
+
 function fazerLogout() {
     localStorage.removeItem('authToken'); // Remove o token do LocalStorage
     localStorage.removeItem('userID');
@@ -36,6 +39,10 @@ function exibirReservas(){
     })
     .then(function(data){
         for (let i = 0; i < data.length; i++) {
+            const reservaID = data[i].reservaID;
+            const PLACA = data[i].PLACA;
+            console.log(`iteração ${i} : `+reservaID)
+
             const card = document.createElement('div');
             card.className = 'card';
             card.style.width = '18rem';
@@ -121,12 +128,13 @@ function exibirReservas(){
             cardBodyBottom.className = 'card-body';
       
             const link1 = document.createElement('button');
-            link1.id = 'reservarExibeCarros'
+            link1.id = `reservarExibeCarros${i}`
             link1.className = 'card-link custom-btn btn-7 reservar';
             const span = document.createElement('span')
             span.textContent = 'Cancelar reserva'
             link1.appendChild(span)
             link1.href = '#';
+            
 
             cardBody.appendChild(titulo1);
             cardBody.appendChild(p);
@@ -144,7 +152,32 @@ function exibirReservas(){
             
             card.appendChild(cardBodyBottom);
 
+            
+
             document.getElementById('reservasFeitas').appendChild(card);
+
+            document.getElementById(`reservarExibeCarros${i}`).addEventListener('click', () => {
+                if (confirm('Tem certeza que deseja cancelar a reserva?')) {
+
+                    fetch(`http://localhost:3000/api/reservas/${PLACA}`, {
+                      method: 'PUT'
+                      
+                    })
+                    .then(response => response.json())
+                    .then(data => console.log(data))
+                    .catch(error => console.error(error))
+
+                    fetch(`http://localhost:3000/api/reservas/del/${reservaID}`, {
+                      method: 'DELETE'                      
+                    })                    
+                    .catch(error => console.error(error))
+
+                    location.reload();
+
+                  }
+              });
+
+
         }
     })
 }
