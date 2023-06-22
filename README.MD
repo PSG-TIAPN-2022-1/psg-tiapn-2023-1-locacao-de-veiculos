@@ -14,4 +14,12 @@ Nosso projeto busca atender uma demanda de locação de veículos, nosso princip
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+### Servidor
+Para subir o servidor abra terminal na raiz do projeto e digite:
+1. `$ npm run dev`
+
+### Front End 
+1. Você pode abrir o index da home page e utilizar o `Live server`
+
+### Banco de dados
+1. Deve ser configurado `config.js` com suas credenciais do banco SQL Server
