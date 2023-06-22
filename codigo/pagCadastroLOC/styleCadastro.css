@@ -5,7 +5,7 @@
 body{
   background: linear-gradient(to bottom, #f09819, #edde5d); 
   background-repeat: no-repeat;
-  height: 130vh;
+  height: 200vh;
 }
 /*Componentes Header*/
 .nav{
@@ -152,18 +152,46 @@ input[type=radio] {
   left: 500px;
   top: 290px;
 }
+h4{
+  padding-right: 300px;
+  position: absolute;
+  top: 310px;
+}
+
+#nomeCartao{
+  padding-right: 300px;
+  position: absolute;
+  top: 340px;
+}
+#numCartao{
+  padding-right: 300px;
+  position: absolute;
+  left: 500px;
+  top: 340px;
+}
+#dataCartao{
+  padding-right: 300px;
+  position: absolute;
+  top: 380px;
+}
+#cvv{
+  padding-right: 300px;
+  position: absolute;
+  left: 500px;
+  top: 380px;
+}
 #termos{
   position: absolute;
-  top: 360px;
+  top: 520px;
 }
 #buttonCadastro{
   position: absolute;
   left: 600px;
-  top: 330px;
+  top: 500px;
 }
 .textoTermos{
   position: absolute;
-  top: 360px;
+  top: 530px;
   left: 70px;
 }
 input[type=checkbox]{
