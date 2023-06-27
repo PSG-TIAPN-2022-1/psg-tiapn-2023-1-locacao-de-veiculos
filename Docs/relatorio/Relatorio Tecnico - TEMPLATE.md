@@ -414,8 +414,6 @@ Desenvolvemos a modelagem de entidade e relaciona no Camunda desktop.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 ## Tecnologias Utilizadas
 
 ......  COLOQUE AQUI O SEU TEXTO ......
