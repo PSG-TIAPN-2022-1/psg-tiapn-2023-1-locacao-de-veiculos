@@ -306,11 +306,7 @@ Vitor Carvalho Soares de Paula: Desenvolvedor Full Stack .
 
 Lucas Laboissiere Ferreira: Desenvolvedor Full Stack 
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+
 
 
 ## Ferramentas
@@ -407,6 +403,30 @@ Desenvolvemos a modelagem de entidade e relaciona no Camunda desktop.
 ## Modelo Relacional
 
 ![Modelo Relacional](images/modelo-relacional.jpeg)
+
+
+# Papeis associados aos processos
+A modelagem de negócios é a etapa em que as regras, restrições e lógicas do negócio são definidas para garantir o funcionamento adequado do sistema. Apesar de um bom trabalho de modelagem, é comum que surjam problemas ou inconsistências nas regras ao longo do tempo devido a mudanças nos requisitos, novos cenários ou erros ocasionais. É nesse contexto que entram os papéis associados ao processo, que consistem nos comandos SQL utilizados para solucionar esses problemas.
+
+##### 1 
+Ao entrar no site o usuário logo é capaz de buscar veículos disponíveis a partir do local de retirada, data e hora selecionados, para solucionar essa demanda o seguinte comando SQL é utilizado:
+
+`SELECT PLACA,ID,MODELO,MARCA,QUILOMETRAGEM,COMBUSTIVEL,TRANSMISSAO,COR,IMAGEM_LINK,VALOR,ValorSemanal FROM VEICULOS WHERE Cod_empresa = @Cod AND DISPONIVEL = 1`
+
+Ou seja, serão mostrados em uma próxima páginas todos os veículos disponíveis ("DISPONIVEL" tem de ser igual a 1) no local selecionado (Cod_empresa define o código da empresa que aquele veículos está localizado).
+
+##### 2
+Após escolher o veículo e ir para a tela de confirmação de locação o usuário confirma a reserva e para isso é necessnecessário deixar aquele carro com o campo "DISPONIVEL" igual a zero, além disso é preciso registrar essa reserva desse usuário, para solucionar essa demanda o seguinte comando SQL é utilizado:
+
+`UPDATE VEICULOS SET DISPONIVEL = 0 WHERE ID = @idVeiculo`
+`INSERT INTO RESERVAS (userID, idVeiculo, dataDeReserva, horaDeReserva, numero, rua, cidade, modelo, marca, combustivel, transmissao, cor, quilometragem, valorsemanal, imagem, PLACA) VALUES (@userID, @idVeiculo, @dataDeReserva, @horaDeReserva, @numero, @rua, @cidade, @modelo, @marca, @combustivel, @transmissao, @cor, @quilometragem, @valorsemanal, @imagem, @PLACA`
+
+##### 3
+Da mesma maneira, para cancelar uma reserva é necessário atualizar o carro e deixá-lo disponível novamente, bem como remover esse veículo das reservas daquele usuário. Para essa demanda foi utilizado o seguinte comando SQL:
+
+`UPDATE VEICULOS SET DISPONIVEL = 1 WHERE PLACA = @PLACA`
+`DELETE FROM RESERVAS WHERE reservaID = @reservaID`
+
 
 # Relatórios analíticos
 
