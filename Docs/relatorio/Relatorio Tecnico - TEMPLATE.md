@@ -410,7 +410,30 @@ Desenvolvemos a modelagem de entidade e relaciona no Camunda desktop.
 
 # Relatórios analíticos
 
-..aqui..
+Em suma, esse relatório analítico oferece uma visão detalhada sobre os principais gráficos de índices permitindo uma compreensão mais profunda do comportamento dos clientes e fornecendo insights valiosos para aprimorar nossos serviços, melhorar a disponibilidade de veículos e aumentar a satisfação dos clientes.
+
+Apresentaremos os seguintes gráficos:
+
+![Reservas Feitas](images/ReservasFeitas1.jpg)
+
+Esses dados representam uma amostra de reservas feitas no período de junho de 2023. Eles incluem diferentes tipos de carros (econômico, intermediário, SUV) e suas respectivas datas de reserva e preços
+
+![Visitas no Site](images/Visitas_Site1.jpg)
+
+Esse gráfico representa uma amostra de dados de acesso ao site e reservas feitas ao longo de uma semana específica. Os dados incluem a data, o número de visitantes que acessaram o site nesse dia e o número de reservas feitas nesse mesmo período. Esses dados podem ser utilizados para análises posteriores, como calcular a taxa de conversão de visitantes em reservas ou identificar padrões de comportamento dos usuários.
+
+![Cancelamentos das Reservas](images/Cancelamento_Reservas1.jpg)
+
+Esse gráfico representa exemplos de cancelamentos de reservas em um determinado período. Os dados incluem o número da reserva, a data em que o cancelamento foi feito e o motivo do cancelamento. Esses dados podem ser utilizados para análises e para identificar possíveis padrões ou razões comuns para o cancelamento de reservas.
+
+![Locais para Reservas](images/Locais_Reservas1.jpg)
+
+Esse gráfico representa um exemplo da quantidade de reservas feitas para retirada nos diferentes locais disponíveis. Os dados incluem o local de retirada e o número de reservas feitas para cada um desses locais. Essa informação é útil para acompanhar a demanda em cada local e tomar decisões estratégicas, como o gerenciamento adequado do estoque de veículos em cada localidade.
+
+![Carros Reservados](images/Carros_Reservas1.jpg)
+
+Esse gráfico representa um exemplo da quantidade de reservas feitas para cada um dos carros disponíveis. Os dados incluem a marca, nome do carro e o número de reservas feitas para cada modelo. Essa informação é útil para acompanhar a demanda por cada carro em particular e pode auxiliar na gestão do estoque e na tomada de decisões sobre a disponibilidade e a diversificação da frota. Lembre-se de adaptar essa tabela com os carros reais disponíveis em sua empresa de reserva de carros.
+
 
 # Projeto da Solução
 
