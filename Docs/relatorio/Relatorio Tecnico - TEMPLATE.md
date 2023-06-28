@@ -441,7 +441,9 @@ Ao confirmar uma reserva o usuário é direcionado à página "Minhas reservas" 
 
 
 # Scripts para automatização do processo
-....Scripts de automatização: São as tarefas que o servidor deverá disparar automáticamente para o email do usuário...
+1- Temos um script de automatização que logo após a realização de cadastro e reserva de veículo ela recebe um email da nossa empresa agradecendo ela para cada respectiva ação.
+2- Temos outro envio de email avisando o cliente q falta apenas 2 dias para o carro ser liberado para a entrega
+
 
 # Relatórios analíticos
 
