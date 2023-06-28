@@ -408,6 +408,11 @@ Desenvolvemos a modelagem de entidade e relaciona no Camunda desktop.
 # Papéis associados aos processos
 A modelagem de negócios é a etapa em que as regras, restrições e lógicas do negócio são definidas para garantir o funcionamento adequado do sistema. Apesar de um bom trabalho de modelagem, é comum que surjam problemas ou inconsistências nas regras ao longo do tempo devido a mudanças nos requisitos, novos cenários ou erros ocasionais. É nesse contexto que entram os papéis associados ao processo, que consistem nos comandos SQL utilizados para solucionar esses problemas.
 
+##### Cadastrar novo usuario
+Ao fazer um cadastro no site o usuário será registrado no banco de dados e deve ter um ID único que será gerado automaticamente no banco de dados. Para essa demanda, utilizamos o seguinte comando SQL: 
+
+`INSERT INTO USUARIOS (NOME_COMPLETO,NACIONALIDADE,CPF,GENERO,CELULAR,EMAIL,SENHA) VALUES (@NOME_COMPLETO,@NACIONALIDADE,@CPF,@GENERO,@CELULAR,@EMAIL,@SENHA)`
+
 ##### Exibir véiculos disponíveis 
 Ao entrar no site o usuário logo é capaz de buscar veículos disponíveis a partir do local de retirada, data e hora selecionados, para solucionar essa demanda o seguinte comando SQL é utilizado:
 
@@ -428,6 +433,13 @@ Da mesma maneira, para cancelar uma reserva é necessário atualizar o carro e d
 `UPDATE VEICULOS SET DISPONIVEL = 1 WHERE PLACA = @PLACA`
 
 `DELETE FROM RESERVAS WHERE reservaID = @reservaID`
+
+##### Exibir reservas feitas pelo usuario
+Ao confirmar uma reserva o usuário é direcionado à página "Minhas reservas" onde deve ser exibidas todas as reservas feitas por aquele usuário, bem como os detalhes da reserva, como local de retirada e detalhes do carro. Para solucionar essa demanda utilizamos o seguinte comando SQL:
+
+`SELECT reservaID ,userID,dataDeReserva,horaDeReserva,numero ,rua,cidade,modelo,marca,combustivel,transmissao,cor,quilometragem,valorsemanal ,imagem, PLACA FROM RESERVAS WHERE userID = @id`
+
+
 
 
 # Relatórios analíticos
