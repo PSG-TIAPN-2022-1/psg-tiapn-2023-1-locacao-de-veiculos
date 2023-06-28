@@ -474,7 +474,10 @@ Esse gráfico representa um exemplo da quantidade de reservas feitas para cada u
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para o front end utilizamos o framework bootstrap, bem como HTML,CSS e Javascript.
+Já no backend utilizamos NodeJs para para configurar a api, criação de rotas. Utilizamos módulo express.
+Nosso banco de dados foi o Microsoft SQL Server, usando pela interface do SQL Server Management Studio.
+Como IDE utilizamos o Visual Studio Code e para controle de versão utilizamos Github no próprio VsCode por meio de extensão, facilitando assim os commits.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
