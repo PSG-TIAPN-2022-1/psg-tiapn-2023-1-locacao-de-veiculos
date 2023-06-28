@@ -440,7 +440,8 @@ Ao confirmar uma reserva o usuário é direcionado à página "Minhas reservas" 
 `SELECT reservaID ,userID,dataDeReserva,horaDeReserva,numero ,rua,cidade,modelo,marca,combustivel,transmissao,cor,quilometragem,valorsemanal ,imagem, PLACA FROM RESERVAS WHERE userID = @id`
 
 
-
+# Scripts para automatização do processo
+....Scripts de automatização: São as tarefas que o servidor deverá disparar automáticamente para o email do usuário...
 
 # Relatórios analíticos
 
