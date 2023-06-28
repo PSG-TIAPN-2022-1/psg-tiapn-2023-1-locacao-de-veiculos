@@ -479,22 +479,13 @@ Já no backend utilizamos NodeJs para para configurar a api, criação de rotas.
 Nosso banco de dados foi o Microsoft SQL Server, usando pela interface do SQL Server Management Studio.
 Como IDE utilizamos o Visual Studio Code e para controle de versão utilizamos Github no próprio VsCode por meio de extensão, facilitando assim os commits.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+
 
 ## Arquitetura da solução
 
+A aplicação vai funcionar durante todo o fluxo do usuário se comunicando com o servidor e recebendo respostas do banco de dados, bem como incluindo novos dados.
 
+![funcionamento](images/funcionamento.webp)
 
 
 
