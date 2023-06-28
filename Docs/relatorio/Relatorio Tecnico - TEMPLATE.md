@@ -491,53 +491,77 @@ A aplicação vai funcionar durante todo o fluxo do usuário se comunicando com 
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+#### 1. Teste de reserva bem-sucedida:
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+- Descrição: Verificar se um usuário pode fazer uma reserva de veículo de forma correta e obter uma confirmação.
+	- Passos:
+ 	- 1.1 - Logar no sistema com as credenciais de usuário.
+	- 1.2 - Navegar para a página de reserva de veículos.
+	- 1.3 - Selecionar um veículo disponível na data desejada.
+	- 1.4 - Confirmar a reserva.
+	- 1.5 - Verificar se a reserva é registrada no sistema e o usuário recebe uma confirmação.
+
+#### 2. Teste de disponibilidade de veículos:
+
+- Descrição: Garantir que o sistema exiba apenas veículos disponíveis para reserva nas datas solicitadas.
+	- Passos:
+ 	- 2.1 - Logar no sistema com as credenciais de usuário.
+	- 2.2 - Navegar para a página de reserva de veículos.
+	- 2.3 - Selecionar uma data de retirada.
+	- 2.4 - Verificar se apenas os veículos disponíveis estão listados para seleção.
+	- 2.5 - Verificar se a reserva é registrada no sistema e o usuário recebe uma confirmação.
+
+ #### 3. Teste de validação de dados:
+
+- Descrição: Validar se o sistema verifica e rejeita entradas inválidas ou inconsistentes durante o processo de reserva.
+	- Passos:
+ 	- 3.1 - Logar no sistema com as credenciais de usuário.
+	- 3.2 - Navegar para a página de reserva de veículos.
+	- 3.3 - Tentar fazer uma reserva sem especificar a data de retirada.
+	- 3.4 - Verificar se uma mensagem de erro é exibida solicitando que a data de retirada seja fornecida.
+	
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+#### 1. Cenários de Teste Selecionados:
+- Teste de reserva bem-sucedida.
+- Teste de disponibilidade de veículos.
+- Teste de validação de dados.
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+#### 2. Funcionalidades Avaliadas:
+- Reserva de veículos.
+- Verificação de disponibilidade.
+- Validação de dados de entrada.
 
-## Ferramentas de Testes (Opcional)
+#### 3. Grupo de Usuários:
+- Próprios desenvolvedores.
+- Familiares com conhecimento suficientes para realizar os testes.
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+#### Pontos Fortes: 
+- Reserva bem-sucedida: Os testes mostraram que a funcionalidade de reserva de veículos está funcionando corretamente. Os usuários conseguiram fazer reservas com sucesso, receberam confirmações e as reservas foram registradas corretamente no sistema.
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+- Verificação de disponibilidade: Os testes confirmaram que o sistema está exibindo apenas veículos disponíveis para as datas solicitadas. Os usuários foram capazes de selecionar veículos com base na disponibilidade adequada.
+
+- Validação de dados: Foi constatado que o sistema realiza a validação correta dos dados de entrada durante o processo de reserva. Os usuários receberam mensagens de erro apropriadas quando tentaram inserir informações inválidas ou inconsistentes.
+
+#### Pontos Fracos: 
+
+- As reservas são até muito bem sucedidas, quero dizer, há necessidade de colocar um limitador de reservas, para que os usuários não possam fazer infinitas reservas, apesar de terem aceitado os termos e o cartão registrado para haver cobranças em casos desse tipo inclusive.
 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para Criar as rotas e conexão com banco de dados, utilizamos o arquivo deixado pelo professor no módulo como exemplo e também video explicando passo a passo:
+- [Microsoft SQL Server & Nodejs REST API CRUD](https://www.youtube.com/watch?v=ReK0kscoF8o&t=43s)
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Para utilizar bootstrap acessamos a documentação:
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+Relatório a partir do Overleaf:
+- [Overleaf](https://www.overleaf.com/latex/templates/sbc-conferences-template/blbxwjwzdngr.pdf)
+
+
