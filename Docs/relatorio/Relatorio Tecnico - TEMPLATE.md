@@ -441,8 +441,11 @@ Ao confirmar uma reserva o usuário é direcionado à página "Minhas reservas" 
 
 
 # Scripts para automatização do processo
-1- Temos um script de automatização que logo após a realização de cadastro e reserva de veículo ela recebe um email da nossa empresa agradecendo ela para cada respectiva ação.
-2- Temos outro envio de email avisando o cliente q falta apenas 2 dias para o carro ser liberado para a entrega
+1- Um dos scripts de automatização pensado a ser implementado na aplicação teria como função logo após a realização de cadastro no site, o usuário deve receber um e-mail da nossa empresa com a confirmação de cadastro.
+
+2- Outro Script no mesmo sentido, faria o envio automático de um e-mail com todos os detalhes da reserva do veículo logo após a reserva ser confirmada pelo usuário.
+
+3- Uma nova possibilidade de automatização seria comunicar o usuário um ou dois dias antes sobre sua reserva a fim de lembra-lo da mesma, evitando assim eventuais ausências no dia da retirada.
 
 
 # Relatórios analíticos
