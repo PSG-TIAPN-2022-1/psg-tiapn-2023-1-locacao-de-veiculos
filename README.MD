@@ -23,3 +23,6 @@ Para subir o servidor abra terminal na raiz do projeto e digite:
 
 ### Banco de dados
 1. Deve ser configurado `config.js` com suas credenciais do banco SQL Server
+
+## Assista ao vídeo demonstrando o projeto
+![Video do Projeto](Docs/video/tinywow_2023-06-21 10-12-43_27927108.mp4)
